@@ -91,17 +91,18 @@ export default function App() {
   const scrollElRef = useRef<HTMLDivElement | null>(null);
   const [scale, setScale] = useState(1);
 
-  // 响应式缩放：根据窗口大小自动调整
+  // 响应式缩放：确保 1640×348 的视口完全适应屏幕
   useEffect(() => {
     const updateScale = () => {
       const windowWidth = window.innerWidth;
       const windowHeight = window.innerHeight;
 
-      // 计算缩放比例，确保内容完全适应屏幕
-      // 不限制最大缩放为1，允许在大屏幕上放大
+      // 计算缩放比例，让 1640×348 的视口完全适应屏幕
       const scaleX = windowWidth / VIEW_W;
       const scaleY = windowHeight / VIEW_H;
-      const newScale = Math.min(scaleX, scaleY); // 选择较小的缩放比例，确保完全显示
+
+      // 使用较小的缩放比例，确保整个 1640×348 视口都能显示
+      const newScale = Math.min(scaleX, scaleY);
 
       setScale(newScale);
     };
@@ -180,7 +181,7 @@ export default function App() {
   const size = FRAME_SIZES[frame];
 
   return (
-    <div className="bg-black min-h-screen w-full flex items-center justify-center overflow-hidden">
+    <div className="bg-black min-h-screen w-full flex items-center justify-center">
       <div
         className="relative bg-black overflow-hidden shadow-2xl"
         style={{
