@@ -97,10 +97,11 @@ export default function App() {
       const windowWidth = window.innerWidth;
       const windowHeight = window.innerHeight;
 
-      // 计算缩放比例，保持宽高比，留少量边距
-      const scaleX = (windowWidth - 16) / VIEW_W; // 减少 padding
-      const scaleY = (windowHeight - 16) / VIEW_H;
-      const newScale = Math.min(scaleX, scaleY, 1); // 最大不超过 1
+      // 计算缩放比例，确保内容完全适应屏幕
+      // 不限制最大缩放为1，允许在大屏幕上放大
+      const scaleX = windowWidth / VIEW_W;
+      const scaleY = windowHeight / VIEW_H;
+      const newScale = Math.min(scaleX, scaleY); // 选择较小的缩放比例，确保完全显示
 
       setScale(newScale);
     };
