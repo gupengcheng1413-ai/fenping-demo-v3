@@ -181,7 +181,7 @@ export default function App() {
   const size = FRAME_SIZES[frame];
 
   return (
-    <div className="bg-black min-h-screen w-full flex items-center justify-center">
+    <div className="bg-neutral-800 min-h-screen w-full flex items-center justify-center">
       <div
         className="relative bg-black overflow-hidden shadow-2xl"
         style={{
