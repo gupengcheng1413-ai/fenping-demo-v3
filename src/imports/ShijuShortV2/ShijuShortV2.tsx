@@ -303,12 +303,9 @@ export default function ShijuShortV2() {
         <p className="[text-decoration-skip-ink:none] decoration-solid leading-[28px] underline">更多词典</p>
       </div>
 
-      {/* 收藏按钮(顶部右上 68×68)
-          Figma 设计:外层 110×101 的 object-cover 图,被 68×68 mask 裁中心。
-          这里把 110×101 的整张图作为 background-image,size 设为 110×101,
-          position 设为 (-15,-13),让 68×68 区域刚好显示原图正中部分,完全覆盖蓝色边框。 */}
+      {/* 收藏按钮(顶部右上 68×68)— 仅图像,无边框 */}
       <div
-        className="absolute bg-[rgba(65,188,255,0.14)] border border-[#10d7ff] border-solid"
+        className="absolute"
         style={{
           left: 1572,
           top: 1,
