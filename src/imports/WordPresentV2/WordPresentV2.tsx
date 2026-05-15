@@ -417,8 +417,8 @@ function Group5() {
 
 function Group6() {
   return (
-    <div className="absolute contents left-[493px] top-[151px]">
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-327px)] text-[#cfd6e2] text-[32px] top-[calc(50%-4379px)] w-[956px]">
+    <div className="absolute contents left-[493px] top-[199px]">
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-327px)] text-[#cfd6e2] text-[32px] top-[calc(50%-4331px)] w-[956px]">
         <p className="leading-[41px] mb-[3px]">{`Here's a present for you.`}</p>
         <p className="leading-[41px] text-[rgba(207,214,226,0.7)]">这是给你的礼物。</p>
       </div>
