@@ -138,11 +138,31 @@ function Component10() {
 
 function Group40() {
   return (
-    <div className="absolute contents left-[495px] top-[92px]">
-      <Component8 />
-      <Component10 />
-      <p className="absolute font-['Noto_Sans_SC:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-295px)] text-[#7b8396] text-[30px] top-[calc(50%-4480.5px)] w-[104px]">例句</p>
-    </div>
+    <>
+      {/* 圆点 A:opacity-40 底层 */}
+      <div
+        className="absolute bg-[#08c8a5] opacity-40 rounded-[15px]"
+        style={{ left: 495, top: 152, width: 12, height: 12 }}
+      />
+      {/* 圆点 B:实色,叠加在 A 右侧 */}
+      <div
+        className="absolute bg-[#08c8a5] rounded-[15px]"
+        style={{ left: 499, top: 152, width: 12, height: 12 }}
+      />
+      {/* "例句" 文字 — Figma frame top=140, height=36 */}
+      <p
+        className="absolute font-['Noto_Sans_SC:Regular',sans-serif] font-normal text-[#7b8396] text-[30px] m-0"
+        style={{
+          left: 525,
+          top: 140,
+          width: 104,
+          height: 36,
+          lineHeight: "36px",
+        }}
+      >
+        例句
+      </p>
+    </>
   );
 }
 
@@ -2784,7 +2804,7 @@ export default function WordPresentV2() {
           </svg>
         </div>
       </div>
-      <div className="absolute inset-[0.53%_73.76%_99.47%_2.03%]" data-name="路径 7">
+      <div className="absolute inset-[0.53%_73.76%_99.46%_2.03%]" data-name="路径 7">
         <div className="absolute inset-[-14.77%_0]">
           <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 397.053 1.024">
             <g id="è·¯å¾ 7">
