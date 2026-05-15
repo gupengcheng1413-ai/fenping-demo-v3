@@ -148,7 +148,19 @@ export default function App() {
       case "shiju-long":
         return <ShijuLong />;
       case "shiju-long-houxuan":
-        return <ShijuLongHouxuan />;
+        return (
+          <div
+            onClick={(e) => {
+              const target = (e.target as HTMLElement).closest("[data-jump]");
+              if (target) {
+                const j = target.getAttribute("data-jump");
+                if (j) setFrame(j as FrameId);
+              }
+            }}
+          >
+            <ShijuLongHouxuan />
+          </div>
+        );
       case "word-present":
         return <WordPresent />;
       case "word-presen":
