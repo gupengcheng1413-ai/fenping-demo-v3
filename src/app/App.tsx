@@ -226,8 +226,8 @@ export default function App() {
                 <div
                   className={
                     scrollable
-                      ? "absolute top-0 left-0 overflow-y-auto overflow-x-hidden z-40"
-                      : "absolute top-0 left-0 overflow-hidden pointer-events-none z-40"
+                      ? "absolute top-0 left-0 overflow-y-auto overflow-x-hidden z-40 bg-black"
+                      : "absolute top-0 left-0 overflow-hidden pointer-events-none z-40 bg-black"
                   }
                   style={{
                     width: size.leftFixed,
