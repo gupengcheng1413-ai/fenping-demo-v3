@@ -2261,7 +2261,6 @@ function Component142() {
 function Group47() {
   return (
     <div className="absolute contents left-[1571px] top-0">
-      <div className="absolute bg-[rgba(65,188,255,0.14)] border border-[#10d7ff] border-solid left-[1571px] size-[68px] top-0" />
       <Component142 />
     </div>
   );

@@ -217,7 +217,6 @@ function Component6() {
 function Group9() {
   return (
     <div className="absolute contents left-[1572px] top-0">
-      <div className="absolute bg-[rgba(65,188,255,0.14)] border border-[#10d7ff] border-solid left-[1572px] size-[68px] top-0" />
       <Component6 />
     </div>
   );
