@@ -11,7 +11,7 @@ import PoemJingyesi from "../imports/PoemJingyesiV2/PoemJingyesiV2";
 import ShijuShort from "../imports/ShijuShortV2/ShijuShortV2";
 import ShijuLong from "../imports/ShijuLong/ShijuLong";
 import ShijuLongHouxuan from "../imports/ShijuLongHouxuan/ShijuLongHouxuan";
-import WordPresent from "../imports/WordPresent-1/WordPresent-32-740";
+import WordPresent from "../imports/WordPresentV2/WordPresentV2";
 import Longword from "../imports/Longword-2/Longword";
 import Duanyu from "../imports/Duanyu/Duanyu";
 import PinyinWordA from "../imports/PinyinWordA-1/PinyinWordA-42-460";
