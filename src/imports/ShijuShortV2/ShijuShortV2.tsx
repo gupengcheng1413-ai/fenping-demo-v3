@@ -92,7 +92,7 @@ function ListIcon({ className }: { className?: string }) {
   );
 }
 
-export default function ShijuShortV2() {
+export default function ShijuShortV2({ onOpenPoem }: { onOpenPoem?: () => void }) {
   return (
     <div className="bg-black relative size-full" data-name="shiju-short-v2">
       {/* 注释 */}
@@ -200,8 +200,11 @@ export default function ShijuShortV2() {
         明亮的月光洒在床前的窗户纸上
       </p>
 
-      {/* 静夜思 */}
-      <p className="absolute font-['Noto_Sans_SC:Regular',sans-serif] font-normal leading-[41px] left-[calc(50%-684px)] text-[#08c8a5] text-[32px] top-[calc(50%-143.5px)] w-[293px] m-0">
+      {/* 静夜思 — 点击跳转到 poem-jingyesi-v2 */}
+      <p
+        onClick={onOpenPoem}
+        className="absolute font-['Noto_Sans_SC:Regular',sans-serif] font-normal leading-[41px] left-[calc(50%-684px)] text-[#08c8a5] text-[32px] top-[calc(50%-143.5px)] w-[293px] m-0 cursor-pointer hover:underline select-none"
+      >
         静夜思
       </p>
 
