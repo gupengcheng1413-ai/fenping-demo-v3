@@ -197,71 +197,71 @@ function Group159() {
 }
 
 function Object() {
-  return <div className="absolute contents inset-[5.1%_67.44%_94.8%_31.54%]" data-name="Object" />;
+  return <div className="absolute contents inset-[5.628%_67.44%_94.273%_31.54%]" data-name="Object" />;
 }
 
 function Component36() {
   return (
-    <div className="absolute contents inset-[5.1%_66.92%_94.8%_31.54%]" data-name="编组 36">
-      <div className="absolute bg-[#08c8a5] inset-[5.1%_67.44%_94.8%_31.54%] opacity-40 rounded-[15px]" data-name="蒙版" />
+    <div className="absolute contents inset-[5.628%_66.92%_94.273%_31.54%]" data-name="编组 36">
+      <div className="absolute bg-[#08c8a5] inset-[5.628%_67.44%_94.273%_31.54%] opacity-40 rounded-[15px]" data-name="蒙版" />
       <Object />
-      <div className="absolute bg-[#08c8a5] inset-[5.1%_66.92%_94.8%_32.05%] rounded-[15px]" data-name="蒙版" />
+      <div className="absolute bg-[#08c8a5] inset-[5.628%_66.92%_94.273%_32.05%] rounded-[15px]" data-name="蒙版" />
     </div>
   );
 }
 
 function Object1() {
-  return <div className="absolute contents inset-[6.41%_67.44%_93.49%_31.54%]" data-name="Object" />;
+  return <div className="absolute contents inset-[6.939%_67.44%_92.961%_31.54%]" data-name="Object" />;
 }
 
 function Component54() {
   return (
-    <div className="absolute contents inset-[6.41%_66.92%_93.49%_31.54%]" data-name="编组 54">
-      <div className="absolute bg-[#08c8a5] inset-[6.41%_67.44%_93.49%_31.54%] opacity-40 rounded-[15px]" data-name="蒙版" />
+    <div className="absolute contents inset-[6.939%_66.92%_92.961%_31.54%]" data-name="编组 54">
+      <div className="absolute bg-[#08c8a5] inset-[6.939%_67.44%_92.961%_31.54%] opacity-40 rounded-[15px]" data-name="蒙版" />
       <Object1 />
-      <div className="absolute bg-[#08c8a5] inset-[6.41%_66.92%_93.49%_32.05%] rounded-[15px]" data-name="蒙版" />
+      <div className="absolute bg-[#08c8a5] inset-[6.939%_66.92%_92.961%_32.05%] rounded-[15px]" data-name="蒙版" />
     </div>
   );
 }
 
 function Object2() {
-  return <div className="absolute contents inset-[3.82%_38.08%_96.08%_60.89%]" data-name="Object" />;
+  return <div className="absolute contents inset-[4.348%_38.08%_95.553%_60.89%]" data-name="Object" />;
 }
 
 function Component14() {
   return (
-    <div className="absolute contents inset-[3.82%_37.57%_96.08%_60.89%]" data-name="编组 14">
-      <div className="absolute bg-[#08c8a5] inset-[3.82%_38.08%_96.08%_60.89%] opacity-40 rounded-[15px]" data-name="蒙版" />
+    <div className="absolute contents inset-[4.348%_37.57%_95.553%_60.89%]" data-name="编组 14">
+      <div className="absolute bg-[#08c8a5] inset-[4.348%_38.08%_95.553%_60.89%] opacity-40 rounded-[15px]" data-name="蒙版" />
       <Object2 />
-      <div className="absolute bg-[#08c8a5] inset-[3.82%_37.57%_96.08%_61.41%] rounded-[15px]" data-name="蒙版" />
+      <div className="absolute bg-[#08c8a5] inset-[4.348%_37.57%_95.553%_61.41%] rounded-[15px]" data-name="蒙版" />
     </div>
   );
 }
 
 function Object3() {
-  return <div className="absolute contents inset-[5.1%_38.11%_94.8%_60.87%]" data-name="Object" />;
+  return <div className="absolute contents inset-[5.626%_38.11%_94.275%_60.87%]" data-name="Object" />;
 }
 
 function Component53() {
   return (
-    <div className="absolute contents inset-[5.1%_37.59%_94.8%_60.87%]" data-name="编组 53">
-      <div className="absolute bg-[#08c8a5] inset-[5.1%_38.11%_94.8%_60.87%] opacity-40 rounded-[15px]" data-name="蒙版" />
+    <div className="absolute contents inset-[5.626%_37.59%_94.275%_60.87%]" data-name="编组 53">
+      <div className="absolute bg-[#08c8a5] inset-[5.626%_38.11%_94.275%_60.87%] opacity-40 rounded-[15px]" data-name="蒙版" />
       <Object3 />
-      <div className="absolute bg-[#08c8a5] inset-[5.1%_37.59%_94.8%_61.38%] rounded-[15px]" data-name="蒙版" />
+      <div className="absolute bg-[#08c8a5] inset-[5.626%_37.59%_94.275%_61.38%] rounded-[15px]" data-name="蒙版" />
     </div>
   );
 }
 
 function Object4() {
-  return <div className="absolute contents inset-[3.82%_67.76%_96.08%_31.22%]" data-name="Object" />;
+  return <div className="absolute contents inset-[4.347%_67.76%_95.554%_31.22%]" data-name="Object" />;
 }
 
 function Component15() {
   return (
-    <div className="absolute contents inset-[3.82%_67.24%_96.08%_31.22%]" data-name="编组 14">
-      <div className="absolute bg-[#08c8a5] inset-[3.82%_67.76%_96.08%_31.22%] opacity-40 rounded-[15px]" data-name="蒙版" />
+    <div className="absolute contents inset-[4.347%_67.24%_95.554%_31.22%]" data-name="编组 14">
+      <div className="absolute bg-[#08c8a5] inset-[4.347%_67.76%_95.554%_31.22%] opacity-40 rounded-[15px]" data-name="蒙版" />
       <Object4 />
-      <div className="absolute bg-[#08c8a5] inset-[3.82%_67.24%_96.08%_31.73%] rounded-[15px]" data-name="蒙版" />
+      <div className="absolute bg-[#08c8a5] inset-[4.347%_67.24%_95.554%_31.73%] rounded-[15px]" data-name="蒙版" />
     </div>
   );
 }
@@ -2607,46 +2607,46 @@ export default function WordPresentV2() {
       <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-324px)] text-[#959caa] text-[24px] top-[calc(50%-4247px)] w-[447px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[normal]">来源《教纲释义词典》</p>
       </div>
-      <div className="absolute bg-[#16181c] inset-[4.87%_41.71%_94.15%_30%] rounded-[10px]" data-name="矩形" />
-      <div className="absolute bg-[#16181c] inset-[6.18%_41.71%_92.84%_30%] rounded-[10px]" data-name="矩形" />
+      <div className="absolute bg-[#16181c] inset-[5.391%_41.71%_93.628%_30%] rounded-[10px]" data-name="矩形" />
+      <div className="absolute bg-[#16181c] inset-[6.703%_41.71%_92.317%_30%] rounded-[10px]" data-name="矩形" />
       <Component36 />
       <Component54 />
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-246.25px)] text-[#cfd6e2] text-[28px] top-[calc(50%-4102.84px)] w-[103px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-246.25px)] text-[#cfd6e2] text-[28px] top-[calc(50%-4055.5px)] w-[103px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[26px]">派生词</p>
       </div>
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-246.25px)] text-[#cfd6e2] text-[28px] top-[calc(50%-3982.84px)] w-[103px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-246.25px)] text-[#cfd6e2] text-[28px] top-[calc(50%-3935.5px)] w-[103px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[26px]">谚语</p>
       </div>
-      <div className="absolute bg-[#16181c] inset-[3.59%_12.32%_95.43%_59.35%] rounded-[10px]" data-name="矩形" />
-      <div className="absolute bg-[#16181c] inset-[4.87%_12.34%_94.15%_59.33%] rounded-[10px]" data-name="矩形" />
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+231.59px)] text-[#cfd6e2] text-[28px] top-[calc(50%-4218.27px)] w-[66px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="absolute bg-[#16181c] inset-[4.111%_12.32%_94.910%_59.35%] rounded-[10px]" data-name="矩形" />
+      <div className="absolute bg-[#16181c] inset-[5.391%_12.34%_93.628%_59.33%] rounded-[10px]" data-name="矩形" />
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+231.59px)] text-[#cfd6e2] text-[28px] top-[calc(50%-4170.5px)] w-[66px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[26px]">短语</p>
       </div>
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+231.18px)] text-[#cfd6e2] text-[28px] top-[calc(50%-4101.5px)] w-[66px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+231.18px)] text-[#cfd6e2] text-[28px] top-[calc(50%-4053.5px)] w-[66px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[26px]">近义</p>
       </div>
       <Component14 />
       <Component53 />
-      <div className="absolute bg-[#16181c] inset-[3.59%_41.71%_95.43%_30%] rounded-[10px]" data-name="矩形">
+      <div className="absolute bg-[#16181c] inset-[4.111%_41.71%_94.910%_30%] rounded-[10px]" data-name="矩形">
         <div aria-hidden="true" className="absolute border-0 border-[#b3b3b3] border-solid inset-0 pointer-events-none rounded-[10px]" />
       </div>
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_SC:Regular','Noto_Sans_JP:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-255.35px)] text-[#cfd6e2] text-[28px] top-[calc(50%-4219.84px)] w-[117px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_SC:Regular','Noto_Sans_JP:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-255.35px)] text-[#cfd6e2] text-[28px] top-[calc(50%-4172.5px)] w-[117px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[26px]">词态变化</p>
       </div>
       <Component15 />
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-313px)] text-[#4c4f55] text-[28px] top-[calc(50%-4059.5px)] w-[426px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-313px)] text-[#4c4f55] text-[28px] top-[calc(50%-4011.5px)] w-[426px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[24px]">来源:《英汉简明词典》</p>
       </div>
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-313px)] text-[#4c4f55] text-[28px] top-[calc(50%-3939.5px)] w-[426px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-313px)] text-[#4c4f55] text-[28px] top-[calc(50%-3891.5px)] w-[426px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[24px]">来源:《英汉简明词典》</p>
       </div>
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+183px)] text-[#4c4f55] text-[28px] top-[calc(50%-4178.38px)] w-[410px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+183px)] text-[#4c4f55] text-[28px] top-[calc(50%-4130.5px)] w-[410px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[24px]">来源:《英汉简明词典》</p>
       </div>
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+182.59px)] text-[#4c4f55] text-[28px] top-[calc(50%-4061.62px)] w-[410px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+182.59px)] text-[#4c4f55] text-[28px] top-[calc(50%-4013.5px)] w-[410px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[24px]">来源:《英汉简明词典》</p>
       </div>
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-307px)] text-[#4c4f55] text-[28px] top-[calc(50%-4176.5px)] w-[411px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-307px)] text-[#4c4f55] text-[28px] top-[calc(50%-4128.5px)] w-[411px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[24px]">来源:《英汉简明词典》</p>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-311px)] text-[#959caa] text-[24px] top-[calc(50%-886px)] w-[447px]" style={{ fontVariationSettings: "'wdth' 100" }}>
