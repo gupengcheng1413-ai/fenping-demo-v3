@@ -135,7 +135,7 @@ function Group1() {
   );
 }
 
-function Group3({ onOpenPoem }: { onOpenPoem?: () => void }) {
+function Group3() {
   return (
     <div className="absolute contents left-[1433px] top-[7px]">
       <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_SC:Regular','Noto_Sans_JP:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+630px)] text-[#08c8a5] text-[28px] top-[calc(50%-294px)] w-[79px]" style={{ fontVariationSettings: "'wdth' 100" }}>
@@ -199,7 +199,7 @@ function Group() {
           </g>
         </svg>
       </div>
-      <div onClick={onOpenPoem} className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-281.57px)] text-[#cfd6e2] text-[32px] top-[calc(50%-200.5px)] w-[225.429px] cursor-pointer hover:underline select-none">
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-281.57px)] text-[#cfd6e2] text-[32px] top-[calc(50%-200.5px)] w-[225.429px]">
         <p className="leading-[26px]">静夜思</p>
       </div>
     </div>
@@ -310,7 +310,7 @@ function Group8() {
   );
 }
 
-export default function ShijuLongHouxuan({ onOpenPoem }: { onOpenPoem?: () => void }) {
+export default function ShijuLongHouxuan() {
   return (
     <div className="bg-black relative size-full" data-name="shiju-long-houxuan">
       <Component />
@@ -330,7 +330,7 @@ export default function ShijuLongHouxuan({ onOpenPoem }: { onOpenPoem?: () => vo
       </div>
       <Group2 />
       <Group1 />
-      <Group3 onOpenPoem={onOpenPoem} />
+      <Group3 />
       <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-800px)] text-[#cfd6e2] text-[64px] top-[213.5px] w-[455px]">
         <p className="leading-[83px]">静夜思[唐]李白床前明月光，疑是地上霜。举头望明月，低头思故乡。</p>
       </div>
