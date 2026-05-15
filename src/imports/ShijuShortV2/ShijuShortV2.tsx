@@ -96,50 +96,41 @@ export default function ShijuShortV2() {
   return (
     <div className="bg-black relative size-full" data-name="shiju-short-v2">
       {/* 注释 */}
-      <div
-        className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+628px)] text-[#08c8a5] text-[28px] top-[calc(50%-354.5px)] w-[79px]"
-      >
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+628px)] text-[#08c8a5] text-[28px] top-[calc(50%-305px)] w-[79px]">
         <p className="leading-[normal]">注释</p>
       </div>
 
       {/* 释义(右上小标签) */}
-      <div
-        className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+626px)] text-[#7b8396] text-[28px] top-[calc(50%-305.5px)] w-[129px]"
-      >
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+626px)] text-[#7b8396] text-[28px] top-[calc(50%-256px)] w-[129px]">
         <p className="leading-[normal]">释义</p>
       </div>
 
       {/* 注释:虚线圆角矩形 */}
-      <div className="absolute border border-[#5d6575] border-dashed inset-[3.09%_12.38%_76.42%_87.56%]" />
+      <div className="absolute border border-[#5d6575] border-dashed inset-[3.55%_12.38%_72.97%_87.56%]" />
       {/* 注释:小绿点 */}
-      <div className="absolute inset-[3.22%_12.07%_95.36%_87.26%]">
+      <div className="absolute inset-[3.69%_12.07%_94.68%_87.26%]">
         <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipseCorner} />
       </div>
       {/* 释义:小标记矩形(右上) */}
-      <div className="absolute inset-[14.43%_11.83%_84.02%_88.11%]" />
+      <div className="absolute inset-[16.54%_11.83%_81.68%_88.11%]" />
 
-      {/* 释义首段(中间主区) */}
-      <div
-        className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-409px)] text-[#cfd6e2] text-[32px] top-[calc(50%-315.5px)] w-[801px]"
-      >
+      {/* 释义首段(中间主区,加宽至 989) */}
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-409px)] text-[#cfd6e2] text-[32px] top-[calc(50%-286.5px)] w-[989px]">
         <p className="leading-[41px]">
           床:今传五种说法。一指井台。二指井栏。三"床"是"窗"的通假字。四指坐卧的器具。五解释为胡床。
         </p>
       </div>
 
-      {/* 语音播放按钮(深灰底+图标) */}
-      <div className="absolute contents inset-[14.43%_91.16%_79.38%_4.88%]">
-        <div className="absolute bg-[#23272e] inset-[14.43%_91.16%_79.38%_4.88%] rounded-[6px]" />
-        <div className="absolute inset-[15.46%_92.28%_80.41%_6.03%]">
+      {/* 语音播放按钮 */}
+      <div className="absolute contents inset-[16.54%_91.16%_76.37%_4.88%]">
+        <div className="absolute bg-[#23272e] inset-[16.54%_91.16%_76.37%_4.88%] rounded-[6px]" />
+        <div className="absolute inset-[17.73%_92.28%_77.55%_6.03%]">
           <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVoiceIcon} />
         </div>
       </div>
 
-      {/* 中间垂直分隔线(竖直,旋转 -90°) */}
-      <div
-        className="absolute flex inset-[0_77.07%_55.15%_22.87%] items-center justify-center"
-        style={{ containerType: "size" }}
-      >
+      {/* 中间垂直分隔线 */}
+      <div className="absolute flex inset-[0_77.07%_48.6%_22.87%] items-center justify-center" style={{ containerType: "size" }}>
         <div className="-rotate-90 flex-none h-[100cqw] w-[100cqh]">
           <div className="relative size-full">
             <div className="absolute inset-[0_0.82%_0_-0.14%]">
@@ -150,110 +141,106 @@ export default function ShijuShortV2() {
       </div>
 
       {/* 标题:床前明月光 */}
-      <div
-        className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-797px)] text-[#ec9709] text-[64px] top-[45.5px] w-[427px]"
-      >
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-797px)] text-[#ec9709] text-[64px] top-[45.5px] w-[427px]">
         <p className="leading-[normal]">床前明月光</p>
       </div>
 
       {/* 5 条拼音横线 */}
-      <div className="absolute inset-[10.95%_95.12%_88.92%_1.52%]">
+      <div className="absolute inset-[12.56%_95.12%_87.3%_1.52%]">
         <div className="absolute inset-[0_0_0_-0.91%]">
           <img alt="" className="block max-w-none size-full" src={imgPinyinLine} />
         </div>
       </div>
-      <div className="absolute inset-[10.95%_91.1%_88.92%_5.55%]">
+      <div className="absolute inset-[12.56%_91.1%_87.3%_5.55%]">
         <div className="absolute inset-[0_0_0_-0.91%]">
           <img alt="" className="block max-w-none size-full" src={imgPinyinLine} />
         </div>
       </div>
-      <div className="absolute inset-[10.95%_87.26%_88.92%_9.39%]">
+      <div className="absolute inset-[12.56%_87.26%_87.3%_9.39%]">
         <div className="absolute inset-[0_0_0_-0.91%]">
           <img alt="" className="block max-w-none size-full" src={imgPinyinLine} />
         </div>
       </div>
-      <div className="absolute inset-[10.95%_83.35%_88.92%_13.29%]">
+      <div className="absolute inset-[12.56%_83.35%_87.3%_13.29%]">
         <div className="absolute inset-[0_0_0_-0.91%]">
           <img alt="" className="block max-w-none size-full" src={imgPinyinLine} />
         </div>
       </div>
-      <div className="absolute inset-[10.95%_79.33%_88.92%_17.32%]">
+      <div className="absolute inset-[12.56%_79.33%_87.3%_17.32%]">
         <div className="absolute inset-[0_0_0_-0.91%]">
           <img alt="" className="block max-w-none size-full" src={imgPinyinLine} />
         </div>
       </div>
 
       {/* 标题旁的翻页书图标 */}
-      <div className="absolute inset-[15.59%_96.52%_80.66%_1.52%]">
+      <div className="absolute inset-[17.87%_96.52%_77.83%_1.52%]">
         <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBookCorner} />
       </div>
 
-      {/* 释义圆点 + 文字(中段)— 蒙版+绿色矩形 */}
-      <div className="absolute contents left-[419px] top-[167px]">
-        <div className="absolute contents inset-[24.68%_73.72%_73.78%_25.55%]">
-          <div className="absolute bg-[#08c8a5] inset-[24.68%_73.72%_73.78%_25.55%] opacity-40 rounded-[15px]" />
+      {/* 释义圆点 + 文字(中段) */}
+      <div className="absolute contents left-[419px] top-[111px]">
+        <div className="absolute contents inset-[20.01%_73.72%_78.21%_25.55%]">
+          <div className="absolute bg-[#08c8a5] inset-[20.01%_73.72%_78.21%_25.55%] opacity-40 rounded-[15px]" />
         </div>
-        <div className="absolute contents inset-[24.68%_73.48%_73.78%_25.79%]">
-          <div className="absolute bg-[#08c8a5] inset-[24.68%_73.48%_73.78%_25.79%] rounded-[15px]" />
+        <div className="absolute contents inset-[20.01%_73.48%_78.21%_25.79%]">
+          <div className="absolute bg-[#08c8a5] inset-[20.01%_73.48%_78.21%_25.79%] rounded-[15px]" />
         </div>
-        <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-378px)] text-[#7b8396] text-[30px] top-[calc(50%-189.5px)] w-[160px]">
+        <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-378px)] text-[#7b8396] text-[30px] top-[calc(50%-196px)] w-[160px]">
           <p className="leading-[normal]">释义</p>
         </div>
       </div>
 
       {/* 出处: */}
-      <div
-        className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-795px)] text-[#7b8396] text-[30px] top-[calc(50%-169.5px)] w-[160px]"
-      >
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-795px)] text-[#7b8396] text-[30px] top-[calc(50%-120px)] w-[160px]">
         <p className="leading-[normal]">出处:</p>
       </div>
 
-      {/* 中段释义:明亮的月光... */}
-      <p className="absolute font-['Noto_Sans_SC:Regular',sans-serif] font-normal leading-[41px] left-[calc(50%-409px)] text-[#cfd6e2] text-[32px] top-[calc(50%-140px)] w-[792px] m-0">
+      {/* 中段释义:明亮的月光... (加宽至 963) */}
+      <p className="absolute font-['Noto_Sans_SC:Regular',sans-serif] font-normal leading-[41px] left-[calc(50%-409px)] text-[#cfd6e2] text-[32px] top-[calc(50%-156.5px)] w-[963px] m-0">
         明亮的月光洒在床前的窗户纸上
       </p>
 
       {/* 静夜思 */}
-      <p className="absolute font-['Noto_Sans_SC:Regular',sans-serif] font-normal leading-[41px] left-[calc(50%-684px)] text-[#08c8a5] text-[32px] top-[calc(50%-193px)] w-[293px] m-0">
+      <p className="absolute font-['Noto_Sans_SC:Regular',sans-serif] font-normal leading-[41px] left-[calc(50%-684px)] text-[#08c8a5] text-[32px] top-[calc(50%-143.5px)] w-[293px] m-0">
         静夜思
       </p>
 
-      {/* 汉英翻译块(整个组) */}
-      <div className="absolute contents left-[411px] top-[412px]">
+      {/* 汉英翻译块 */}
+      <div className="absolute contents left-[411px] top-[330px]">
         {/* 框 */}
-        <div className="absolute inset-[89.69%_70.37%_5.58%_27.2%]">
+        <div className="absolute inset-[90.69%_70.37%_3.89%_27.2%]">
           <div className="absolute inset-[-5.45%_-5%_-4.55%_-5%]">
             <img alt="" className="block max-w-none size-full" src={imgInfoIcon} />
           </div>
         </div>
         {/* 翻页虚线路径 */}
-        <div className="absolute inset-[53.09%_18.23%_46.13%_25.06%]">
+        <div className="absolute inset-[48.74%_18.23%_50.37%_25.06%]">
           <div className="absolute inset-[41.67%_0]">
             <img alt="" className="block max-w-none size-full" src={imgTranslationPath} />
           </div>
         </div>
-        {/* 译字徽章 */}
-        <div className="absolute inset-[70.23%_72.56%_25.9%_25.49%]">
+        {/* 译字徽章(组53) */}
+        <div className="absolute inset-[68.39%_72.56%_27.18%_25.49%]">
           <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup53} />
         </div>
-        {/* 上传图标 */}
-        <div className="absolute inset-[58.25%_57.38%_35.49%_38.96%]">
+        {/* 上传图标(组55) */}
+        <div className="absolute inset-[54.65%_57.38%_38.17%_38.96%]">
           <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup55} />
         </div>
         {/* 汉英翻译标签 */}
-        <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-315px)] text-[#cfd6e2] text-[30px] top-[calc(50%+88.5px)] w-[185px]">
+        <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-315px)] text-[#cfd6e2] text-[30px] top-[calc(50%+56px)] w-[185px]">
           <p className="leading-[normal]">汉英翻译</p>
         </div>
         {/* 英文译文 */}
-        <p className="absolute font-['Noto_Sans_SC:Regular',sans-serif] font-normal h-[61px] leading-[41px] left-[calc(50%-357px)] text-[#cfd6e2] text-[32px] top-[calc(50%+148px)] w-[956px] m-0">
+        <p className="absolute font-['Noto_Sans_SC:Regular',sans-serif] font-normal h-[61px] leading-[41px] left-[calc(50%-357px)] text-[#cfd6e2] text-[32px] top-[calc(50%+115.5px)] w-[956px] m-0">
           Before my bed there streams in the moonlight.
         </p>
         {/* 注脚 */}
-        <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-380px)] text-[#959caa] text-[24px] top-[calc(50%+248.5px)] w-[447px]">
+        <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-380px)] text-[#959caa] text-[24px] top-[calc(50%+216px)] w-[447px]">
           <p className="leading-[normal]">以上句子由英语人工专家翻译</p>
         </div>
         {/* 译字渐变方块(双层) */}
-        <div className="-translate-y-1/2 absolute aspect-[37/30] left-[26.46%] overflow-clip right-[69.88%] top-[calc(50%+88.5px)]">
+        <div className="-translate-y-1/2 absolute aspect-[37/30] left-[26.46%] overflow-clip right-[69.88%] top-[calc(50%+56px)]">
           <div className="absolute contents inset-0">
             <div
               className="absolute inset-[6.66%_0_6.67%_21.62%] opacity-20 rounded-[15px]"
@@ -283,27 +270,27 @@ export default function ShijuShortV2() {
       </div>
 
       {/* 详情(右中) + 虚线小绿点 */}
-      <div className="absolute contents left-[1448px] top-[491px]">
-        <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+645px)] text-[#08c8a5] text-[28px] top-[calc(50%+132.5px)] w-[79px]">
+      <div className="absolute contents left-[1448px] top-[409px]">
+        <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+645px)] text-[#08c8a5] text-[28px] top-[calc(50%+100px)] w-[79px]">
           <p className="leading-[normal]">详情</p>
         </div>
-        <div className="absolute border border-[#5d6575] border-dashed inset-[64.18%_11.34%_30.03%_88.6%]" />
-        <div className="absolute inset-[65.98%_11.04%_32.6%_88.29%]">
+        <div className="absolute border border-[#5d6575] border-dashed inset-[61.45%_11.34%_31.91%_88.6%]" />
+        <div className="absolute inset-[63.52%_11.04%_34.86%_88.29%]">
           <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipseCorner} />
         </div>
       </div>
 
       {/* 来源《古诗文精选》 */}
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-401px)] text-[#959caa] text-[24px] top-[calc(50%-30.5px)] w-[447px]">
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-401px)] text-[#959caa] text-[24px] top-[calc(50%-63px)] w-[447px]">
         <p className="leading-[normal]">来源《古诗文精选》</p>
       </div>
 
       {/* 更多词典(下划线) */}
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-162px)] text-[#d4e0ff] text-[24px] top-[calc(50%-33px)] w-[247px]">
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-162px)] text-[#d4e0ff] text-[24px] top-[calc(50%-65.5px)] w-[247px]">
         <p className="[text-decoration-skip-ink:none] decoration-solid leading-[28px] underline">更多词典</p>
       </div>
 
-      {/* 收藏按钮(顶部右上 68×68)— 仅图像,无边框 */}
+      {/* 收藏按钮(顶部右上 68×68) */}
       <div
         className="absolute"
         style={{
