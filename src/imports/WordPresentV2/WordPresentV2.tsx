@@ -43,7 +43,7 @@ function Component7() {
   return (
     <div className="absolute inset-[7.91%_67.18%_91.76%_31%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-9.459px_-10.201px] mask-size-[48.649px_51px] overflow-clip" style={{ maskImage: `url('${img1}')` }} data-name="启蒙词典图标">
       <div className="absolute border-[1.62px] border-solid border-white inset-0 rounded-[4.05px]" data-name="矩形" />
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-5.36px)] text-[11.34px] text-white top-[calc(50%--59.03px)] w-[12px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-5.36px)] text-[11.34px] text-white top-[calc(50%-0.97px)] w-[12px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[normal]">简</p>
       </div>
     </div>
@@ -304,7 +304,7 @@ function Component12() {
 
 function Group2() {
   return (
-    <div className="absolute contents left-[23.84%] right-[74.21%] top-[214px]">
+    <div className="absolute contents left-[23.84%] right-[74.21%] top-[154px]">
       <div className="absolute flex inset-[1.68%_74.37%_98.01%_24.01%] items-center justify-center" style={{ containerType: "size" }}>
         <div className="flex-none h-[100cqh] rotate-180 w-[100cqw]">
           <Component12 />
@@ -332,7 +332,7 @@ function Group2() {
           </div>
         </div>
       </div>
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Helvetica:Bold',sans-serif] justify-center leading-[0] left-[24.41%] not-italic right-[74.76%] text-[#cfd6e2] text-[12px] text-center top-[calc(50%-4345.37px)]">
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Helvetica:Bold',sans-serif] justify-center leading-[0] left-[24.41%] not-italic right-[74.76%] text-[#cfd6e2] text-[12px] text-center top-[calc(50%-4405.37px)]">
         <p className="leading-[normal]">3</p>
       </div>
     </div>
@@ -349,12 +349,12 @@ function Component25() {
 
 function Group1() {
   return (
-    <div className="absolute contents left-[31px] top-[204px]">
+    <div className="absolute contents left-[31px] top-[144px]">
       <Component25 />
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-772px)] text-[28px] text-white top-[calc(50%-4344.5px)] w-[28px]">
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-772px)] text-[28px] text-white top-[calc(50%-4404.5px)] w-[28px]">
         <p className="leading-[normal]">英</p>
       </div>
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-709px)] text-[#8d94a4] text-[28px] top-[calc(50%-4344.5px)] w-[28px]">
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-709px)] text-[#8d94a4] text-[28px] top-[calc(50%-4404.5px)] w-[28px]">
         <p className="leading-[normal]">美</p>
       </div>
     </div>
@@ -363,7 +363,7 @@ function Group1() {
 
 function Group3() {
   return (
-    <div className="absolute contents left-[31px] top-[204px]">
+    <div className="absolute contents left-[31px] top-[144px]">
       <Group1 />
       <div className="absolute inset-[1.73%_93.72%_98.05%_5.06%]" data-name="形状结合">
         <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 20 20.1306">
@@ -417,8 +417,8 @@ function Group5() {
 
 function Group6() {
   return (
-    <div className="absolute contents left-[493px] top-[259px]">
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-327px)] text-[#cfd6e2] text-[32px] top-[calc(50%-4271.0px)] w-[956px]">
+    <div className="absolute contents left-[493px] top-[199px]">
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-327px)] text-[#cfd6e2] text-[32px] top-[calc(50%-4331px)] w-[956px]">
         <p className="leading-[41px] mb-[3px]">{`Here's a present for you.`}</p>
         <p className="leading-[41px] text-[rgba(207,214,226,0.7)]">这是给你的礼物。</p>
       </div>
@@ -462,13 +462,13 @@ function Component17() {
 
 function Group7() {
   return (
-    <div className="absolute contents left-[501px] top-[841px]">
+    <div className="absolute contents left-[501px] top-[781px]">
       <Component13 />
       <Component17 />
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-296px)] text-[#7b8396] text-[30px] top-[calc(50%-3700.0px)] w-[160px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-296px)] text-[#7b8396] text-[30px] top-[calc(50%-3760px)] w-[160px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[normal]">释义</p>
       </div>
-      <div className="-translate-y-1/2 absolute aspect-[26/26] left-[36.83%] right-[60.73%] top-[calc(50%-3700.5px)]" data-name="字段更多的箭头">
+      <div className="-translate-y-1/2 absolute aspect-[26/26] left-[36.83%] right-[60.73%] top-[calc(50%-3760.5px)]" data-name="字段更多的箭头">
         <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 40 40">
           <circle cx="20" cy="20" fill="var(--fill-0, #16181C)" id="æ¤­åå½¢" r="20" />
         </svg>
@@ -520,10 +520,10 @@ function Component21() {
 
 function Group8() {
   return (
-    <div className="absolute contents left-[505px] top-[1181px]">
+    <div className="absolute contents left-[505px] top-[1121px]">
       <Component19 />
       <Component21 />
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_SC:Regular','Noto_Sans_JP:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-292px)] text-[#7b8396] text-[30px] top-[calc(50%-3360.0px)] w-[160px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_SC:Regular','Noto_Sans_JP:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-292px)] text-[#7b8396] text-[30px] top-[calc(50%-3420px)] w-[160px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[normal]">词态变化</p>
       </div>
     </div>
@@ -564,10 +564,10 @@ function Component29() {
 
 function Group9() {
   return (
-    <div className="absolute contents left-[501px] top-[1488px]">
+    <div className="absolute contents left-[501px] top-[1428px]">
       <Component27 />
       <Component29 />
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-296px)] text-[#7b8396] text-[30px] top-[calc(50%-3053.0px)] w-[160px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-296px)] text-[#7b8396] text-[30px] top-[calc(50%-3113px)] w-[160px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[normal]">例句</p>
       </div>
     </div>
@@ -608,10 +608,10 @@ function Component33() {
 
 function Group10() {
   return (
-    <div className="absolute contents left-[501px] top-[1890px]">
+    <div className="absolute contents left-[501px] top-[1830px]">
       <Component31 />
       <Component33 />
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-296px)] text-[#7b8396] text-[30px] top-[calc(50%-2651.0px)] w-[160px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-296px)] text-[#7b8396] text-[30px] top-[calc(50%-2711px)] w-[160px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[normal]">短语</p>
       </div>
     </div>
@@ -652,10 +652,10 @@ function Component38() {
 
 function Group11() {
   return (
-    <div className="absolute contents left-[505px] top-[2904px]">
+    <div className="absolute contents left-[505px] top-[2844px]">
       <Component35 />
       <Component38 />
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-292px)] text-[#7b8396] text-[30px] top-[calc(50%-1637.0px)] w-[160px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-292px)] text-[#7b8396] text-[30px] top-[calc(50%-1697px)] w-[160px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[normal]">派生词</p>
       </div>
     </div>
@@ -696,10 +696,10 @@ function Component42() {
 
 function Group12() {
   return (
-    <div className="absolute contents left-[505px] top-[3085px]">
+    <div className="absolute contents left-[505px] top-[3025px]">
       <Component40 />
       <Component42 />
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-292px)] text-[#7b8396] text-[30px] top-[calc(50%-1456.0px)] w-[160px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-292px)] text-[#7b8396] text-[30px] top-[calc(50%-1516px)] w-[160px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[normal]">近义</p>
       </div>
     </div>
@@ -740,10 +740,10 @@ function Component46() {
 
 function Group13() {
   return (
-    <div className="absolute contents left-[505px] top-[3231px]">
+    <div className="absolute contents left-[505px] top-[3171px]">
       <Component44 />
       <Component46 />
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-292px)] text-[#7b8396] text-[30px] top-[calc(50%-1310.0px)] w-[160px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-292px)] text-[#7b8396] text-[30px] top-[calc(50%-1370px)] w-[160px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[normal]">谚语</p>
       </div>
     </div>
@@ -836,8 +836,8 @@ function Component60() {
 
 function Group14() {
   return (
-    <div className="absolute contents left-[495px] top-[1552px]">
-      <div className="absolute font-['Noto_Sans_SC:Regular',sans-serif] font-normal h-[320px] leading-[0] left-[calc(50%-325px)] text-[#cfd6e2] text-[32px] top-[calc(50%-3020.5px)] w-[958px]">
+    <div className="absolute contents left-[495px] top-[1492px]">
+      <div className="absolute font-['Noto_Sans_SC:Regular',sans-serif] font-normal h-[320px] leading-[0] left-[calc(50%-325px)] text-[#cfd6e2] text-[32px] top-[calc(50%-3080.5px)] w-[958px]">
         <p className="leading-[41px] mb-[3px]">①At Christmas, she gets a present from my dad.</p>
         <p className="leading-[41px] mb-[3px] text-[rgba(207,214,226,0.7)]">圣诞节的时候，她收到了我爸爸送的礼物。</p>
         <p className="leading-[41px] mb-[3px]">②Then Della searched through the stores looking for a present for Jim.</p>
@@ -969,8 +969,8 @@ function Component68() {
 
 function Group15() {
   return (
-    <div className="absolute contents left-[499px] top-[3303px]">
-      <div className="absolute font-['Noto_Sans_SC:Regular',sans-serif] font-normal h-[438px] leading-[0] left-[calc(50%-321px)] text-[#cfd6e2] text-[32px] top-[calc(50%-1269.5px)] w-[958px]">
+    <div className="absolute contents left-[499px] top-[3243px]">
+      <div className="absolute font-['Noto_Sans_SC:Regular',sans-serif] font-normal h-[438px] leading-[0] left-[calc(50%-321px)] text-[#cfd6e2] text-[32px] top-[calc(50%-1329.5px)] w-[958px]">
         <p className="leading-[41px] mb-[3px]">①Return present for present.</p>
         <p className="leading-[41px] mb-[3px]">投桃报李。</p>
         <p className="leading-[41px] mb-[3px]">②Make the most of present pleasures.</p>
@@ -996,7 +996,7 @@ function Component52() {
   return (
     <div className="absolute inset-[41.36%_66.57%_58.31%_31.61%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-9.459px_-10.201px] mask-size-[48.649px_51px] overflow-clip" style={{ maskImage: `url('${img1}')` }} data-name="启蒙词典图标">
       <div className="absolute border-[1.62px] border-solid border-white inset-0 rounded-[4.05px]" data-name="矩形" />
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-5.36px)] text-[11.34px] text-white top-[calc(50%--59.03px)] w-[12px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-5.36px)] text-[11.34px] text-white top-[calc(50%-0.97px)] w-[12px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[normal]">考</p>
       </div>
     </div>
@@ -1061,7 +1061,7 @@ function Component70() {
   return (
     <div className="absolute inset-[42.11%_60.43%_57.36%_35.61%] overflow-clip" data-name="编组 6">
       <div className="absolute border border-[#8d94a4] border-solid inset-0 rounded-[8px]" data-name="矩形" />
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Medium',sans-serif] font-medium justify-center leading-[0] left-[calc(50%+4.5px)] text-[#8d94a4] text-[24px] text-center top-[calc(50%--57.5px)] w-[34px]">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Medium',sans-serif] font-medium justify-center leading-[0] left-[calc(50%+4.5px)] text-[#8d94a4] text-[24px] text-center top-[calc(50%-2.5px)] w-[34px]">
         <p className="leading-[normal]">n.</p>
       </div>
     </div>
@@ -1072,7 +1072,7 @@ function Component71() {
   return (
     <div className="absolute inset-[42.11%_55.98%_57.36%_40.06%] overflow-clip" data-name="编组 56">
       <div className="absolute border border-[#8d94a4] border-solid inset-0 rounded-[8px]" data-name="矩形" />
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Medium',sans-serif] font-medium justify-center leading-[0] left-[calc(50%+4.5px)] text-[#8d94a4] text-[24px] text-center top-[calc(50%--57.5px)] w-[34px]">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Medium',sans-serif] font-medium justify-center leading-[0] left-[calc(50%+4.5px)] text-[#8d94a4] text-[24px] text-center top-[calc(50%-2.5px)] w-[34px]">
         <p className="leading-[normal]">v.</p>
       </div>
     </div>
@@ -1113,13 +1113,13 @@ function Component74() {
 
 function Group16() {
   return (
-    <div className="absolute contents left-[505px] top-[3971px]">
+    <div className="absolute contents left-[505px] top-[3911px]">
       <Component72 />
       <Component74 />
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-292px)] text-[#7b8396] text-[30px] top-[calc(50%-570.0px)] w-[160px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-292px)] text-[#7b8396] text-[30px] top-[calc(50%-630px)] w-[160px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[normal]">释义</p>
       </div>
-      <div className="-translate-y-1/2 absolute aspect-[26/26] left-[37.07%] right-[60.49%] top-[calc(50%-570.5px)]" data-name="字段更多的箭头">
+      <div className="-translate-y-1/2 absolute aspect-[26/26] left-[37.07%] right-[60.49%] top-[calc(50%-630.5px)]" data-name="字段更多的箭头">
         <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 40 40">
           <circle cx="20" cy="20" fill="var(--fill-0, #16181C)" id="æ¤­åå½¢" r="20" />
         </svg>
@@ -1171,13 +1171,13 @@ function Component78() {
 
 function Group17() {
   return (
-    <div className="absolute contents left-[504px] top-[4098px]">
+    <div className="absolute contents left-[504px] top-[4038px]">
       <Component76 />
       <Component78 />
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-293px)] text-[#7b8396] text-[30px] top-[calc(50%-443.0px)] w-[160px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-293px)] text-[#7b8396] text-[30px] top-[calc(50%-503px)] w-[160px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[normal]">例句</p>
       </div>
-      <div className="-translate-y-1/2 absolute aspect-[26/26] left-[37.01%] right-[60.55%] top-[calc(50%-443.5px)]" data-name="字段更多的箭头">
+      <div className="-translate-y-1/2 absolute aspect-[26/26] left-[37.01%] right-[60.55%] top-[calc(50%-503.5px)]" data-name="字段更多的箭头">
         <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 40 40">
           <circle cx="20" cy="20" fill="var(--fill-0, #16181C)" id="æ¤­åå½¢" r="20" />
         </svg>
@@ -1229,13 +1229,13 @@ function Component82() {
 
 function Group18() {
   return (
-    <div className="absolute contents left-[505px] top-[4352px]">
+    <div className="absolute contents left-[505px] top-[4292px]">
       <Component80 />
       <Component82 />
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-292px)] text-[#7b8396] text-[30px] top-[calc(50%-189.0px)] w-[160px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-292px)] text-[#7b8396] text-[30px] top-[calc(50%-249px)] w-[160px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[normal]">考点解析</p>
       </div>
-      <div className="-translate-y-1/2 absolute aspect-[26/26] left-[40.91%] right-[56.65%] top-[calc(50%-190.5px)]" data-name="字段更多的箭头">
+      <div className="-translate-y-1/2 absolute aspect-[26/26] left-[40.91%] right-[56.65%] top-[calc(50%-250.5px)]" data-name="字段更多的箭头">
         <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 40 40">
           <circle cx="20" cy="20" fill="var(--fill-0, #16181C)" id="æ¤­åå½¢" r="20" />
         </svg>
@@ -1287,7 +1287,7 @@ function Component86() {
 
 function Group19() {
   return (
-    <div className="absolute contents left-[505px] top-[4964px]">
+    <div className="absolute contents left-[505px] top-[4904px]">
       <Component84 />
       <Component86 />
       <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-292px)] text-[#7b8396] text-[30px] top-[calc(50%+363px)] w-[160px]" style={{ fontVariationSettings: "'wdth' 100" }}>
@@ -1345,7 +1345,7 @@ function Component90() {
 
 function Group20() {
   return (
-    <div className="absolute contents left-[504px] top-[5980px]">
+    <div className="absolute contents left-[504px] top-[5920px]">
       <Component88 />
       <Component90 />
       <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-293px)] text-[#7b8396] text-[30px] top-[calc(50%+1379px)] w-[160px]" style={{ fontVariationSettings: "'wdth' 100" }}>
@@ -1385,7 +1385,7 @@ function Component93() {
 
 function Group21() {
   return (
-    <div className="absolute contents left-[1243px] top-[6218px]">
+    <div className="absolute contents left-[1243px] top-[6158px]">
       <div className="absolute inset-[67.34%_21.77%_32.28%_75.79%]" data-name="矩形">
         <div className="absolute inset-[5.81%_3.59%_0_3.59%]">
           <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 37.1263 33.0925">
@@ -1402,7 +1402,7 @@ function Group21() {
 
 function Group22() {
   return (
-    <div className="absolute contents left-[499px] top-[6210px]">
+    <div className="absolute contents left-[499px] top-[6150px]">
       <div className="absolute bg-[rgba(166,0,0,0.54)] inset-[67.25%_12.13%_31.24%_30.43%] opacity-45 rounded-[6px]" data-name="矩形" />
       <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-292px)] text-[#e73f19] text-[32px] top-[calc(50%+1607.5px)] w-[177px]">
         <p className="leading-[normal]">错误表达</p>
@@ -1422,7 +1422,7 @@ function Component98() {
   return (
     <div className="absolute inset-[70.24%_66.57%_29.43%_31.61%] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-9.459px_-10.201px] mask-size-[48.649px_51px] overflow-clip" style={{ maskImage: `url('${img1}')` }} data-name="启蒙词典图标">
       <div className="absolute border-[1.62px] border-solid border-white inset-0 rounded-[4.05px]" data-name="矩形" />
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-5.36px)] text-[11.34px] text-white top-[calc(50%--59.03px)] w-[12px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-5.36px)] text-[11.34px] text-white top-[calc(50%-0.97px)] w-[12px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[normal]">高</p>
       </div>
     </div>
@@ -1487,7 +1487,7 @@ function Component100() {
   return (
     <div className="absolute inset-[71.79%_60.49%_27.69%_35.55%] overflow-clip" data-name="编组 60">
       <div className="absolute border border-[#8d94a4] border-solid inset-0 rounded-[8px]" data-name="矩形" />
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Medium',sans-serif] font-medium justify-center leading-[0] left-[calc(50%+4.5px)] text-[#8d94a4] text-[24px] text-center top-[calc(50%--57.5px)] w-[34px]">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Medium',sans-serif] font-medium justify-center leading-[0] left-[calc(50%+4.5px)] text-[#8d94a4] text-[24px] text-center top-[calc(50%-2.5px)] w-[34px]">
         <p className="leading-[normal]">n.</p>
       </div>
     </div>
@@ -1498,7 +1498,7 @@ function Component101() {
   return (
     <div className="absolute inset-[71.79%_56.04%_27.69%_40%] overflow-clip" data-name="编组 61">
       <div className="absolute border border-[#8d94a4] border-solid inset-0 rounded-[8px]" data-name="矩形" />
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Medium',sans-serif] font-medium justify-center leading-[0] left-[calc(50%+4.5px)] text-[#8d94a4] text-[24px] text-center top-[calc(50%--57.5px)] w-[34px]">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Medium',sans-serif] font-medium justify-center leading-[0] left-[calc(50%+4.5px)] text-[#8d94a4] text-[24px] text-center top-[calc(50%-2.5px)] w-[34px]">
         <p className="leading-[normal]">v.</p>
       </div>
     </div>
@@ -1539,7 +1539,7 @@ function Component104() {
 
 function Group23() {
   return (
-    <div className="absolute contents left-[504px] top-[6685px]">
+    <div className="absolute contents left-[504px] top-[6625px]">
       <Component102 />
       <Component104 />
       <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_SC:Regular','Noto_Sans_JP:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-293px)] text-[#7b8396] text-[30px] top-[calc(50%+2084px)] w-[160px]" style={{ fontVariationSettings: "'wdth' 100" }}>
@@ -1641,7 +1641,7 @@ function Component110() {
 
 function Group27() {
   return (
-    <div className="absolute contents left-[51.95%] right-[46.1%] top-[6762px]">
+    <div className="absolute contents left-[51.95%] right-[46.1%] top-[6702px]">
       <div className="absolute flex inset-[73.29%_46.26%_26.41%_52.12%] items-center justify-center" style={{ containerType: "size" }}>
         <div className="flex-none h-[100cqh] rotate-180 w-[100cqw]">
           <Component110 />
@@ -1692,7 +1692,7 @@ function Component111() {
 
 function Group28() {
   return (
-    <div className="absolute contents left-[52.8%] right-[45.24%] top-[6804px]">
+    <div className="absolute contents left-[52.8%] right-[45.24%] top-[6744px]">
       <div className="absolute flex inset-[73.75%_45.41%_25.95%_52.98%] items-center justify-center" style={{ containerType: "size" }}>
         <div className="flex-none h-[100cqh] rotate-180 w-[100cqw]">
           <Component111 />
@@ -1729,7 +1729,7 @@ function Group28() {
 
 function Group32() {
   return (
-    <div className="absolute left-[520px] size-[39px] top-[7474px]">
+    <div className="absolute left-[520px] size-[39px] top-[7414px]">
       <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 39 39">
         <g id="Group 63">
           <circle cx="19.5" cy="19.5" fill="var(--fill-0, #1C5296)" id="Ellipse 1" r="19.5" />
@@ -1745,7 +1745,7 @@ function Group32() {
 
 function Group33() {
   return (
-    <div className="absolute left-[520px] size-[39px] top-[7518px]">
+    <div className="absolute left-[520px] size-[39px] top-[7458px]">
       <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 39 39">
         <g id="Group 63">
           <circle cx="19.5" cy="19.5" fill="var(--fill-0, #1C5296)" id="Ellipse 1" r="19.5" />
@@ -1834,7 +1834,7 @@ function Group35() {
 
 function Group36() {
   return (
-    <div className="absolute contents left-[535px] top-[7593px]">
+    <div className="absolute contents left-[535px] top-[7533px]">
       <Group34 />
       <Group35 />
       <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans:Regular',sans-serif] font-normal h-[30px] justify-center leading-[0] left-[calc(50%-227px)] text-[28px] text-white top-[calc(50%+2979.5px)] w-[37px]" style={{ fontVariationSettings: "'wdth' 100" }}>
@@ -1878,7 +1878,7 @@ function Component116() {
 
 function Group29() {
   return (
-    <div className="absolute contents left-[497px] top-[8179px]">
+    <div className="absolute contents left-[497px] top-[8119px]">
       <Component114 />
       <Component116 />
       <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-300px)] text-[#7b8396] text-[30px] top-[calc(50%+3578px)] w-[160px]" style={{ fontVariationSettings: "'wdth' 100" }}>
@@ -1890,7 +1890,7 @@ function Group29() {
 
 function Group37() {
   return (
-    <div className="absolute contents left-[494px] top-[7592px]">
+    <div className="absolute contents left-[494px] top-[7532px]">
       <div className="absolute font-['Noto_Sans_SC:Regular',sans-serif] font-normal h-[599px] leading-[0] left-[calc(50%-326px)] text-[#cfd6e2] text-[32px] top-[calc(50%+2959.5px)] w-[942px] whitespace-pre-wrap">
         <p className="mb-[3px]">
           <span className="leading-[41px]">{` 2.             `}</span>
@@ -2288,7 +2288,7 @@ function Component140() {
 
 function Group() {
   return (
-    <div className="absolute contents left-[507px] top-[8733px]">
+    <div className="absolute contents left-[507px] top-[8673px]">
       <Component139 />
       <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-242px)] text-[#cfd6e2] text-[30px] top-[calc(50%+4124.5px)] w-[185px]">
         <p className="leading-[normal]">启蒙</p>
@@ -2448,7 +2448,7 @@ function Group44() {
 
 function Component143({ className }: { className?: string }) {
   return (
-    <div className={className || "absolute left-[1579px] size-[52px] top-[303px]"} data-name="拓展">
+    <div className={className || "absolute left-[1579px] size-[52px] top-[243px]"} data-name="拓展">
       <Group44 />
       <div className="absolute inset-[23.08%_19.23%_46.15%_21.15%]">
         <div className="absolute inset-[-7.81%_-4.84%]">
@@ -2504,7 +2504,7 @@ function Component146() {
 
 function Group38() {
   return (
-    <div className="absolute contents left-[504px] top-[6861px]">
+    <div className="absolute contents left-[504px] top-[6801px]">
       <Component144 />
       <Component146 />
       <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-293px)] text-[#7b8396] text-[30px] top-[calc(50%+2260px)] w-[160px]" style={{ fontVariationSettings: "'wdth' 100" }}>
@@ -2530,7 +2530,7 @@ function Group38() {
 
 function Group51() {
   return (
-    <div className="absolute contents left-[504px] top-[6861px]">
+    <div className="absolute contents left-[504px] top-[6801px]">
       <Group38 />
     </div>
   );
@@ -2538,7 +2538,7 @@ function Group51() {
 
 function Group50() {
   return (
-    <div className="absolute contents left-[504px] top-[6861px]">
+    <div className="absolute contents left-[504px] top-[6801px]">
       <Group51 />
     </div>
   );
@@ -2555,25 +2555,25 @@ export default function WordPresentV2() {
           </svg>
         </div>
       </div>
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+631px)] text-[#08c8a5] text-[28px] top-[calc(50%-4478.0px)] w-[79px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+631px)] text-[#08c8a5] text-[28px] top-[calc(50%-4538px)] w-[79px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[normal]">释义</p>
       </div>
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+631px)] text-[#7b8396] text-[28px] top-[calc(50%-4428.0px)] w-[58px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+631px)] text-[#7b8396] text-[28px] top-[calc(50%-4488px)] w-[58px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[normal]">例句</p>
       </div>
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_SC:Regular','Noto_Sans_JP:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+629px)] text-[#7b8396] text-[28px] top-[calc(50%-4378.0px)] w-[156px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_SC:Regular','Noto_Sans_JP:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+629px)] text-[#7b8396] text-[28px] top-[calc(50%-4438px)] w-[156px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[normal]">词态变化</p>
       </div>
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+631px)] text-[#7b8396] text-[28px] top-[calc(50%-4328.0px)] w-[58px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+631px)] text-[#7b8396] text-[28px] top-[calc(50%-4388px)] w-[58px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[normal]">短语</p>
       </div>
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+631px)] text-[#7b8396] text-[28px] top-[calc(50%-4278.0px)] w-[58px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+631px)] text-[#7b8396] text-[28px] top-[calc(50%-4338px)] w-[58px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[normal]">派生</p>
       </div>
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+631px)] text-[#7b8396] text-[28px] top-[calc(50%-4228.0px)] w-[58px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+631px)] text-[#7b8396] text-[28px] top-[calc(50%-4288px)] w-[58px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[normal]">近义</p>
       </div>
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+631px)] text-[#7b8396] text-[28px] top-[calc(50%-4178.0px)] w-[58px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+631px)] text-[#7b8396] text-[28px] top-[calc(50%-4238px)] w-[58px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[normal]">谚语</p>
       </div>
       <div className="absolute border border-[#5d6575] border-dashed inset-[0.26%_12.2%_96.07%_87.74%]" data-name="矩形" />
@@ -2586,10 +2586,10 @@ export default function WordPresentV2() {
       <Component />
       <Component2 />
       <Component23 />
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_SC:Regular','Noto_Sans_JP:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-241px)] text-[#cfd6e2] text-[30px] top-[calc(50%-3774.0px)] w-[75px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_SC:Regular','Noto_Sans_JP:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-241px)] text-[#cfd6e2] text-[30px] top-[calc(50%-3834px)] w-[75px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[normal]">简明</p>
       </div>
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+637px)] text-[#08c8a5] text-[28px] top-[calc(50%-3674.0px)] w-[79px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+637px)] text-[#08c8a5] text-[28px] top-[calc(50%-3734px)] w-[79px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[normal]">释义</p>
       </div>
       <div className="absolute border border-[#5d6575] border-dashed inset-[9.07%_11.83%_87.6%_88.11%]" data-name="矩形" />
@@ -2599,30 +2599,30 @@ export default function WordPresentV2() {
         </svg>
       </div>
       <div className="absolute inset-[10.03%_11.28%_89.84%_88.66%]" data-name="矩形" />
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-325px)] text-[#cfd6e2] text-[32px] top-[calc(50%-4416.5px)] w-[228px]">
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-325px)] text-[#cfd6e2] text-[32px] top-[calc(50%-4476.5px)] w-[228px]">
         <p className="leading-[normal]">礼物</p>
       </div>
       <Group159 />
       <Group40 />
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-324px)] text-[#959caa] text-[24px] top-[calc(50%-4187.0px)] w-[447px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-324px)] text-[#959caa] text-[24px] top-[calc(50%-4247px)] w-[447px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[normal]">来源《教纲释义词典》</p>
       </div>
       <div className="absolute bg-[#16181c] inset-[4.87%_41.71%_94.15%_30%] rounded-[10px]" data-name="矩形" />
       <div className="absolute bg-[#16181c] inset-[6.18%_41.71%_92.84%_30%] rounded-[10px]" data-name="矩形" />
       <Component36 />
       <Component54 />
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-246.25px)] text-[#cfd6e2] text-[28px] top-[calc(50%-4042.84px)] w-[103px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-246.25px)] text-[#cfd6e2] text-[28px] top-[calc(50%-4102.84px)] w-[103px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[26px]">派生词</p>
       </div>
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-246.25px)] text-[#cfd6e2] text-[28px] top-[calc(50%-3922.84px)] w-[103px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-246.25px)] text-[#cfd6e2] text-[28px] top-[calc(50%-3982.84px)] w-[103px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[26px]">谚语</p>
       </div>
       <div className="absolute bg-[#16181c] inset-[3.59%_12.32%_95.43%_59.35%] rounded-[10px]" data-name="矩形" />
       <div className="absolute bg-[#16181c] inset-[4.87%_12.34%_94.15%_59.33%] rounded-[10px]" data-name="矩形" />
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+231.59px)] text-[#cfd6e2] text-[28px] top-[calc(50%-4158.27px)] w-[66px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+231.59px)] text-[#cfd6e2] text-[28px] top-[calc(50%-4218.27px)] w-[66px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[26px]">短语</p>
       </div>
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+231.18px)] text-[#cfd6e2] text-[28px] top-[calc(50%-4041.5px)] w-[66px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+231.18px)] text-[#cfd6e2] text-[28px] top-[calc(50%-4101.5px)] w-[66px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[26px]">近义</p>
       </div>
       <Component14 />
@@ -2630,26 +2630,26 @@ export default function WordPresentV2() {
       <div className="absolute bg-[#16181c] inset-[3.59%_41.71%_95.43%_30%] rounded-[10px]" data-name="矩形">
         <div aria-hidden="true" className="absolute border-0 border-[#b3b3b3] border-solid inset-0 pointer-events-none rounded-[10px]" />
       </div>
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_SC:Regular','Noto_Sans_JP:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-255.35px)] text-[#cfd6e2] text-[28px] top-[calc(50%-4159.84px)] w-[117px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_SC:Regular','Noto_Sans_JP:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-255.35px)] text-[#cfd6e2] text-[28px] top-[calc(50%-4219.84px)] w-[117px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[26px]">词态变化</p>
       </div>
       <Component15 />
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-313px)] text-[#4c4f55] text-[28px] top-[calc(50%-3999.5px)] w-[426px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-313px)] text-[#4c4f55] text-[28px] top-[calc(50%-4059.5px)] w-[426px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[24px]">来源:《英汉简明词典》</p>
       </div>
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-313px)] text-[#4c4f55] text-[28px] top-[calc(50%-3879.5px)] w-[426px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-313px)] text-[#4c4f55] text-[28px] top-[calc(50%-3939.5px)] w-[426px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[24px]">来源:《英汉简明词典》</p>
       </div>
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+183px)] text-[#4c4f55] text-[28px] top-[calc(50%-4118.38px)] w-[410px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+183px)] text-[#4c4f55] text-[28px] top-[calc(50%-4178.38px)] w-[410px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[24px]">来源:《英汉简明词典》</p>
       </div>
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+182.59px)] text-[#4c4f55] text-[28px] top-[calc(50%-4001.62px)] w-[410px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+182.59px)] text-[#4c4f55] text-[28px] top-[calc(50%-4061.62px)] w-[410px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[24px]">来源:《英汉简明词典》</p>
       </div>
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-307px)] text-[#4c4f55] text-[28px] top-[calc(50%-4116.5px)] w-[411px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-307px)] text-[#4c4f55] text-[28px] top-[calc(50%-4176.5px)] w-[411px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[24px]">来源:《英汉简明词典》</p>
       </div>
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-311px)] text-[#959caa] text-[24px] top-[calc(50%-826.0px)] w-[447px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-311px)] text-[#959caa] text-[24px] top-[calc(50%-886px)] w-[447px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[normal]">来源《英汉简明词典》</p>
       </div>
       <div className="absolute inset-[40.83%_12.93%_59.17%_30.37%]" data-name="路径 6备份">
@@ -2659,13 +2659,13 @@ export default function WordPresentV2() {
           </svg>
         </div>
       </div>
-      <div className="absolute font-['Noto_Sans_SC:Regular',sans-serif] font-normal h-[287px] leading-[0] left-[calc(50%-325px)] text-[#cfd6e2] text-[32px] top-[calc(50%-3658.5px)] w-[958px]">
+      <div className="absolute font-['Noto_Sans_SC:Regular',sans-serif] font-normal h-[287px] leading-[0] left-[calc(50%-325px)] text-[#cfd6e2] text-[32px] top-[calc(50%-3718.5px)] w-[958px]">
         <p className="leading-[41px] mb-[3px]">a.出席的，在座的，在场的；存在的；现在的，目前的正在处理(考虑) 中的</p>
         <p className="leading-[41px] mb-[3px]">n.现在，目前；礼物；赠品</p>
         <p className="leading-[41px] mb-[3px]">vt.赠送；授予；呈现；表示，致以(问候)等；提出；提供；递交；向......提出(或提供、递交)；显示，呈现；表现</p>
         <p className="leading-[41px]">vi.指向；面向；显露</p>
       </div>
-      <div className="absolute font-['Noto_Sans_SC:Regular',sans-serif] font-normal h-[287px] leading-[0] left-[calc(50%-318px)] text-[#cfd6e2] text-[32px] top-[calc(50%-3327.5px)] w-[958px]">
+      <div className="absolute font-['Noto_Sans_SC:Regular',sans-serif] font-normal h-[287px] leading-[0] left-[calc(50%-318px)] text-[#cfd6e2] text-[32px] top-[calc(50%-3387.5px)] w-[958px]">
         <p className="mb-[3px]">
           <span className="leading-[41px]">{`复数: `}</span>
           <span className="leading-[41px] text-[#0bc8a6]">presents</span>
@@ -2687,7 +2687,7 @@ export default function WordPresentV2() {
           <span className="leading-[41px] text-[#08c8a5]">presents</span>
         </p>
       </div>
-      <div className="absolute font-['Noto_Sans_SC:Regular',sans-serif] font-normal h-[972px] leading-[0] left-[calc(50%-320px)] text-[#cfd6e2] text-[32px] top-[calc(50%-2619.5px)] w-[933px]">
+      <div className="absolute font-['Noto_Sans_SC:Regular',sans-serif] font-normal h-[972px] leading-[0] left-[calc(50%-320px)] text-[#cfd6e2] text-[32px] top-[calc(50%-2679.5px)] w-[933px]">
         <p className="mb-[3px]">
           <span className="leading-[41px] text-[#08c8a5]">present oneself</span>
           <span className="leading-[41px]">{` 出席`}</span>
@@ -2787,7 +2787,7 @@ export default function WordPresentV2() {
       <Component24 />
       <Group2 />
       <Group3 />
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-635px)] text-[#a1aabe] text-[28px] top-[calc(50%-4345.5px)] w-[159px]">
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-635px)] text-[#a1aabe] text-[28px] top-[calc(50%-4405.5px)] w-[159px]">
         <p>
           <span className="leading-[normal]">/</span>
           <span className="font-['Noto_Sans_SC:Regular',sans-serif] font-normal leading-[normal]">{`'`}</span>
@@ -2835,7 +2835,7 @@ export default function WordPresentV2() {
         </div>
       </div>
       <Group39 />
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Bold',sans-serif] font-bold justify-center leading-[0] left-[calc(50%-704px)] text-[#ec9709] text-[0px] top-[121px] w-[269px]">
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Bold',sans-serif] font-bold justify-center leading-[0] left-[calc(50%-704px)] text-[#ec9709] text-[0px] top-[61px] w-[269px]">
         <p className="text-[60px]">
           <span className="leading-[normal]">pr</span>
           <span className="leading-[normal] text-[#08c8a5]">e</span>
@@ -2851,22 +2851,22 @@ export default function WordPresentV2() {
       <Group11 />
       <Group12 />
       <Group13 />
-      <div className="absolute font-['Noto_Sans_SC:Regular',sans-serif] font-normal h-[98px] leading-[0] left-[calc(50%-315px)] text-[#08c8a5] text-[32px] top-[calc(50%-1605.5px)] w-[958px]">
+      <div className="absolute font-['Noto_Sans_SC:Regular',sans-serif] font-normal h-[98px] leading-[0] left-[calc(50%-315px)] text-[#08c8a5] text-[32px] top-[calc(50%-1665.5px)] w-[958px]">
         <p className="leading-[41px] mb-[3px]">presentation</p>
         <p className="leading-[41px]">presenter</p>
       </div>
-      <p className="absolute font-['Noto_Sans_SC:Regular',sans-serif] font-normal h-[61px] leading-[41px] left-[calc(50%-315px)] text-[#08c8a5] text-[32px] top-[calc(50%-1414.5px)] w-[958px]">arise</p>
+      <p className="absolute font-['Noto_Sans_SC:Regular',sans-serif] font-normal h-[61px] leading-[41px] left-[calc(50%-315px)] text-[#08c8a5] text-[32px] top-[calc(50%-1474.5px)] w-[958px]">arise</p>
       <Group14 />
       <Group15 />
       <Component48 />
       <Component69 />
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-231px)] text-[#cfd6e2] text-[30px] top-[calc(50%-715.0px)] w-[75px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-231px)] text-[#cfd6e2] text-[30px] top-[calc(50%-775px)] w-[75px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[normal]">考试</p>
       </div>
       <div className="absolute bg-[#ec9709] inset-[42.11%_64.88%_57.36%_31.16%] rounded-[8px]" data-name="矩形" />
       <Component70 />
       <Component71 />
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Medium',sans-serif] font-medium justify-center leading-[0] left-[calc(50%-274px)] text-[24px] text-center text-white top-[calc(50%-640.0px)] w-[54px]">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Medium',sans-serif] font-medium justify-center leading-[0] left-[calc(50%-274px)] text-[24px] text-center text-white top-[calc(50%-700px)] w-[54px]">
         <p className="leading-[normal]">adj.</p>
       </div>
       <Group16 />
@@ -2874,13 +2874,13 @@ export default function WordPresentV2() {
       <Group18 />
       <Group19 />
       <Group20 />
-      <p className="absolute font-['Noto_Sans_SC:Regular',sans-serif] font-normal h-[64px] leading-[41px] left-[calc(50%-321px)] text-[#cfd6e2] text-[32px] top-[calc(50%-538.5px)] w-[942px]">目前的，现在的；现在时态的；出席的；在场的；存在的；现存的</p>
-      <div className="absolute font-['Noto_Sans_SC:Regular',sans-serif] font-normal h-[208px] leading-[0] left-[calc(50%-322px)] text-[#cfd6e2] text-[0px] top-[calc(50%-411.5px)] w-[942px]">
+      <p className="absolute font-['Noto_Sans_SC:Regular',sans-serif] font-normal h-[64px] leading-[41px] left-[calc(50%-321px)] text-[#cfd6e2] text-[32px] top-[calc(50%-598.5px)] w-[942px]">目前的，现在的；现在时态的；出席的；在场的；存在的；现存的</p>
+      <div className="absolute font-['Noto_Sans_SC:Regular',sans-serif] font-normal h-[208px] leading-[0] left-[calc(50%-322px)] text-[#cfd6e2] text-[0px] top-[calc(50%-471.5px)] w-[942px]">
         <p className="leading-[41px] mb-[3px] text-[32px]">On Thursday night, the winning essays would beread in the hall with all the parents and studentspresent.</p>
         <p className="leading-[41px] mb-[3px] text-[32px] text-[rgba(207,214,226,0.7)]">周四晚上，所有家长和学生都将在大厅里阅读获奖论文。</p>
         <p className="leading-[41px] text-[24px] text-[rgba(207,214,226,0.7)]">——2021.随州市卷・完形填空</p>
       </div>
-      <div className="absolute font-['Noto_Sans_SC:Regular',sans-serif] font-normal h-[543px] leading-[0] left-[calc(50%-321px)] text-[#cfd6e2] text-[32px] top-[calc(50%-157.5px)] w-[942px] whitespace-pre-wrap">
+      <div className="absolute font-['Noto_Sans_SC:Regular',sans-serif] font-normal h-[543px] leading-[0] left-[calc(50%-321px)] text-[#cfd6e2] text-[32px] top-[calc(50%-217.5px)] w-[942px] whitespace-pre-wrap">
         <p className="leading-[41px] mb-[3px]">【串联词】</p>
         <p className="leading-[41px] mb-[3px]">
           {`absent  adj.缺席的;缺少的`}
@@ -3032,22 +3032,22 @@ export default function WordPresentV2() {
       <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+641px)] text-[#7b8396] text-[28px] top-[calc(50%+1935px)] w-[156px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[normal]">释义</p>
       </div>
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_SC:Regular','Noto_Sans_JP:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+637px)] text-[#7b8396] text-[28px] top-[calc(50%-3629.0px)] w-[156px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_SC:Regular','Noto_Sans_JP:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+637px)] text-[#7b8396] text-[28px] top-[calc(50%-3689px)] w-[156px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[normal]">词态变化</p>
       </div>
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+639px)] text-[#7b8396] text-[28px] top-[calc(50%-3582.0px)] w-[58px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+639px)] text-[#7b8396] text-[28px] top-[calc(50%-3642px)] w-[58px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[normal]">短语</p>
       </div>
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+639px)] text-[#7b8396] text-[28px] top-[calc(50%-3536.0px)] w-[58px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+639px)] text-[#7b8396] text-[28px] top-[calc(50%-3596px)] w-[58px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[normal]">派生</p>
       </div>
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+639px)] text-[#7b8396] text-[28px] top-[calc(50%-3476.0px)] w-[58px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+639px)] text-[#7b8396] text-[28px] top-[calc(50%-3536px)] w-[58px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[normal]">近义</p>
       </div>
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+639px)] text-[#7b8396] text-[28px] top-[calc(50%-3417.0px)] w-[58px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+639px)] text-[#7b8396] text-[28px] top-[calc(50%-3477px)] w-[58px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[normal]">谚语</p>
       </div>
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+641px)] text-[#08c8a5] text-[28px] top-[calc(50%-654.0px)] w-[79px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+641px)] text-[#08c8a5] text-[28px] top-[calc(50%-714px)] w-[79px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[normal]">释义</p>
       </div>
       <div className="absolute border border-[#5d6575] border-dashed inset-[42.09%_11.59%_54.58%_88.35%]" data-name="矩形" />
@@ -3057,16 +3057,16 @@ export default function WordPresentV2() {
         </svg>
       </div>
       <div className="absolute inset-[43.05%_11.04%_56.82%_88.9%]" data-name="矩形" />
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+641px)] text-[#7b8396] text-[28px] top-[calc(50%-609.0px)] w-[156px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+641px)] text-[#7b8396] text-[28px] top-[calc(50%-669px)] w-[156px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[normal]">例句</p>
       </div>
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+641px)] text-[#7b8396] text-[28px] top-[calc(50%-563.0px)] w-[134px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+641px)] text-[#7b8396] text-[28px] top-[calc(50%-623px)] w-[134px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[normal]">考点解析</p>
       </div>
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+643px)] text-[#7b8396] text-[28px] top-[calc(50%-509.0px)] w-[134px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+643px)] text-[#7b8396] text-[28px] top-[calc(50%-569px)] w-[134px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[normal]">考题解析</p>
       </div>
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+643px)] text-[#7b8396] text-[28px] top-[calc(50%-456.0px)] w-[98px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+643px)] text-[#7b8396] text-[28px] top-[calc(50%-516px)] w-[98px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[normal]">易错点</p>
       </div>
       <Component138 />
@@ -3079,11 +3079,11 @@ export default function WordPresentV2() {
       </div>
       <Group />
       <Group47 />
-      <div className="absolute left-[1579px] size-[52px] top-[117px]" data-name="列表">
+      <div className="absolute left-[1579px] size-[52px] top-[57px]" data-name="列表">
         <Group41 />
         <Group45 />
       </div>
-      <div className="absolute left-[1579px] size-[52px] top-[241px]" data-name="全/双屏切换变体">
+      <div className="absolute left-[1579px] size-[52px] top-[181px]" data-name="全/双屏切换变体">
         <Group42 />
         <div className="absolute border-3 border-[#4edd83] border-solid bottom-[30.77%] left-1/4 right-[23.08%] rounded-[5px] top-[28.85%]" />
         <div className="absolute flex inset-[42.31%_36.54%_57.69%_38.46%] items-center justify-center" style={{ containerType: "size" }}>
@@ -3098,7 +3098,7 @@ export default function WordPresentV2() {
           </div>
         </div>
       </div>
-      <div className="absolute left-[1579px] size-[52px] top-[179px]" data-name="Component 2">
+      <div className="absolute left-[1579px] size-[52px] top-[119px]" data-name="Component 2">
         <div className="absolute aspect-[60/60] left-0 right-0 top-0">
           <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 52 52">
             <circle cx="26" cy="26" fill="url(#paint0_linear_1_988)" id="Ellipse 8" r="25.5" stroke="url(#paint1_linear_1_988)" />
@@ -3117,7 +3117,7 @@ export default function WordPresentV2() {
             </defs>
           </svg>
         </div>
-        <div className="absolute aspect-[29/29] left-[23.08%] right-[23.08%] top-[72px]">
+        <div className="absolute aspect-[29/29] left-[23.08%] right-[23.08%] top-[12px]">
           <div className="absolute inset-[-2.61%_-0.48%_5.72%_-0.48%]">
             <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 28.2678 27.1285">
               <path d={svgPaths.p14af0000} id="Star 1" stroke="var(--stroke-0, #7C8394)" strokeWidth="3" />
@@ -3125,13 +3125,13 @@ export default function WordPresentV2() {
           </div>
         </div>
       </div>
-      <div className="absolute left-[1579px] size-[52px] top-[365px]" data-name="键盘录入">
+      <div className="absolute left-[1579px] size-[52px] top-[305px]" data-name="键盘录入">
         <Group43 />
         <Group46 />
       </div>
       <Component143 />
       <Group50 />
-      <div className="absolute h-[274px] left-[491px] top-[8807px] w-[1065px]" data-name="image 5">
+      <div className="absolute h-[274px] left-[491px] top-[8747px] w-[1065px]" data-name="image 5">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage5} />
       </div>
     </div>
