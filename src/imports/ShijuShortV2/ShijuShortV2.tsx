@@ -13,7 +13,6 @@ import imgInfoIcon from "./info-icon.svg";
 import imgTranslationPath from "./translation-path.svg";
 import imgGroup53 from "./group53.svg";
 import imgGroup55 from "./group55.svg";
-import imgShoucangMask from "./shoucang-mask.svg";
 import imgShoucang from "./shoucang.png";
 
 function KeyboardIcon({ className }: { className?: string }) {
@@ -304,20 +303,20 @@ export default function ShijuShortV2() {
         <p className="[text-decoration-skip-ink:none] decoration-solid leading-[28px] underline">更多词典</p>
       </div>
 
-      {/* 收藏按钮(顶部右上 68×68) */}
-      <div className="absolute contents left-[1572px] top-px">
-        <div className="absolute bg-[rgba(65,188,255,0.14)] border border-[#10d7ff] border-solid left-[1572px] size-[68px] top-px" />
-        <div className="absolute contents left-[1572px] top-px">
-          <div
-            className="absolute h-[101px] left-[1557px] mask-alpha mask-intersect mask-no-clip mask-no-repeat top-[-12px] w-[110px]"
-            style={{
-              maskImage: `url('${imgShoucangMask}')`,
-              maskSize: "68px 68px",
-              maskPosition: "15px 13px",
-            }}
-          >
-            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgShoucang} />
-          </div>
+      {/* 收藏按钮(顶部右上 68×68)
+          替代 Figma 的 CSS mask:用 68×68 + overflow-hidden 容器,图片偏移 (-15,-13) 实现等价裁剪 */}
+      <div
+        className="absolute"
+        style={{ left: 1572, top: 1, width: 68, height: 68 }}
+      >
+        <div className="absolute inset-0 bg-[rgba(65,188,255,0.14)] border border-[#10d7ff] border-solid" />
+        <div className="absolute inset-0 overflow-hidden">
+          <img
+            alt=""
+            src={imgShoucang}
+            className="absolute pointer-events-none"
+            style={{ left: -15, top: -13, width: 110, height: 101, objectFit: "cover" }}
+          />
         </div>
       </div>
 
