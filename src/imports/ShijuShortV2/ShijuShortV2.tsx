@@ -304,21 +304,22 @@ export default function ShijuShortV2() {
       </div>
 
       {/* 收藏按钮(顶部右上 68×68)
-          替代 Figma 的 CSS mask:用 68×68 + overflow-hidden 容器,图片偏移 (-15,-13) 实现等价裁剪 */}
+          Figma 设计:外层 110×101 的 object-cover 图,被 68×68 mask 裁中心。
+          这里把 110×101 的整张图作为 background-image,size 设为 110×101,
+          position 设为 (-15,-13),让 68×68 区域刚好显示原图正中部分,完全覆盖蓝色边框。 */}
       <div
-        className="absolute"
-        style={{ left: 1572, top: 1, width: 68, height: 68 }}
-      >
-        <div className="absolute inset-0 bg-[rgba(65,188,255,0.14)] border border-[#10d7ff] border-solid" />
-        <div className="absolute inset-0 overflow-hidden">
-          <img
-            alt=""
-            src={imgShoucang}
-            className="absolute pointer-events-none"
-            style={{ left: -15, top: -13, width: 110, height: 101, objectFit: "cover" }}
-          />
-        </div>
-      </div>
+        className="absolute bg-[rgba(65,188,255,0.14)] border border-[#10d7ff] border-solid"
+        style={{
+          left: 1572,
+          top: 1,
+          width: 68,
+          height: 68,
+          backgroundImage: `url('${imgShoucang}')`,
+          backgroundSize: "110px 101px",
+          backgroundPosition: "-15px -13px",
+          backgroundRepeat: "no-repeat",
+        }}
+      />
 
       {/* 右侧 4 图标 */}
       <ListIcon className="absolute left-[1580px] size-[52px] top-[58px]" />
