@@ -66,7 +66,7 @@ const FRAME_SIZES: Partial<
   "ciyu-zhaoyang": { w: 1640, h: 2009, leftFixed: 196, rightFixed: 75 },
   "xiehouyu-short": { w: 1640, h: 671, leftFixed: 475, rightFixed: 75 },
   "xiehouyu-long": { w: 1640, h: 665, leftFixed: 475, rightFixed: 75, leftFixedContentH: 665 },
-  "poem-jingyesi": { w: 1640, h: 2830, leftFixed: 475, rightFixed: 75, leftFixedContentH: 440 },
+  "poem-jingyesi": { w: 1640, h: 2830, leftFixed: 475, rightFixed: 75, leftFixedContentH: 380 },
   "shiju-short": { w: 1640, h: 677, leftFixed: 411, rightFixed: 68, leftFixedContentH: 348 },
   "shiju-long": { w: 1640, h: 2335, leftFixed: 482, rightFixed: 75, leftFixedContentH: 425 },
   "shiju-long-houxuan": { w: 1640, h: 660, leftFixed: 482, rightFixed: 75, leftFixedContentH: 420 },
