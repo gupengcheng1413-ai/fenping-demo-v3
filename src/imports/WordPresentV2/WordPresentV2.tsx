@@ -148,11 +148,31 @@ function Group40() {
 
 function Group159() {
   return (
-    <div className="absolute contents left-[495px] top-[16px]">
-      <Component8 />
-      <Component10 />
-      <p className="absolute font-['Noto_Sans_SC:Regular',sans-serif] font-normal leading-[normal] left-[calc(50%-295px)] text-[#7b8396] text-[30px] top-[calc(50%-4538.5px)] w-[104px]">释义</p>
-    </div>
+    <>
+      {/* 圆点 A:opacity-40 底层 */}
+      <div
+        className="absolute bg-[#08c8a5] opacity-40 rounded-[15px]"
+        style={{ left: 495, top: 28, width: 12, height: 12 }}
+      />
+      {/* 圆点 B:实色,叠加在 A 右侧 */}
+      <div
+        className="absolute bg-[#08c8a5] rounded-[15px]"
+        style={{ left: 499, top: 28, width: 12, height: 12 }}
+      />
+      {/* "释义" 文字 — Figma frame top=16, height=36 */}
+      <p
+        className="absolute font-['Noto_Sans_SC:Regular',sans-serif] font-normal text-[#7b8396] text-[30px] m-0"
+        style={{
+          left: 525,
+          top: 16,
+          width: 104,
+          height: 36,
+          lineHeight: "36px",
+        }}
+      >
+        释义
+      </p>
+    </>
   );
 }
 
