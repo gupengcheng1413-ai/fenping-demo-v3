@@ -309,8 +309,13 @@ export default function PoemJingyesiV2() {
         </div>
       </div>
 
-      {/* 翻页书图标 */}
+      {/* 翻页书图标(编组 40 — 标题旁) */}
       <div className="absolute inset-[1.2%_84.39%_97.77%_13.66%]">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBookCorner} />
+      </div>
+
+      {/* 编组 54 — 背诵按钮左侧的小图标 (170, 124) 32×29 */}
+      <div className="absolute inset-[4.38%_87.68%_94.59%_10.37%]">
         <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBookCorner} />
       </div>
 
