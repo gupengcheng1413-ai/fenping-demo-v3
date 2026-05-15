@@ -223,32 +223,41 @@ export default function App() {
               const contentH = size.leftFixedContentH ?? VIEW_H;
               const scrollable = contentH > VIEW_H;
               return (
-                <div
-                  className={
-                    scrollable
-                      ? "absolute top-0 left-0 overflow-y-auto overflow-x-hidden z-40 bg-black"
-                      : "absolute top-0 left-0 overflow-hidden pointer-events-none z-40 bg-black"
-                  }
-                  style={{
-                    width: size.leftFixed,
-                    height: VIEW_H,
-                    ...(scrollable
-                      ? { touchAction: "pan-y", overscrollBehavior: "contain" }
-                      : {}),
-                  }}
-                >
+                <>
+                  {/* 不透明遮罩:挡住主滚动区在左侧区域显露的同份内容,
+                      z 介于主滚动(默认 0)和左固定容器(z-40)之间 */}
                   <div
-                    className="relative overflow-hidden"
-                    style={{ width: size.leftFixed, height: contentH }}
+                    className="absolute top-0 left-0 bg-black z-30 pointer-events-none"
+                    style={{ width: size.leftFixed, height: VIEW_H }}
+                  />
+                  <div
+                    className={
+                      scrollable
+                        ? "absolute top-0 left-0 overflow-y-auto overflow-x-hidden z-40"
+                        : "absolute top-0 left-0 overflow-hidden pointer-events-none z-40"
+                    }
+                    style={{
+                      width: size.leftFixed,
+                      height: VIEW_H,
+                      backgroundColor: "#000",
+                      ...(scrollable
+                        ? { touchAction: "pan-y", overscrollBehavior: "contain" }
+                        : {}),
+                    }}
                   >
                     <div
-                      className="absolute top-0 left-0"
-                      style={{ width: size.w, height: size.h }}
+                      className="relative overflow-hidden"
+                      style={{ width: size.leftFixed, height: contentH, backgroundColor: "#000" }}
                     >
-                      {renderFrame()}
+                      <div
+                        className="absolute top-0 left-0"
+                        style={{ width: size.w, height: size.h }}
+                      >
+                        {renderFrame()}
+                      </div>
                     </div>
                   </div>
-                </div>
+                </>
               );
             })()}
             {size.rightFixed && (
