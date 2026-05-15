@@ -2608,14 +2608,9 @@ export default function WordPresentV2() {
         <p className="leading-[normal]">来源《教纲释义词典》</p>
       </div>
       <div className="absolute bg-[#16181c] inset-[5.391%_41.71%_93.628%_30%] rounded-[10px]" data-name="矩形" />
-      <div className="absolute bg-[#16181c] inset-[6.703%_41.71%_92.317%_30%] rounded-[10px]" data-name="矩形" />
       <Component36 />
-      <Component54 />
       <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-246.25px)] text-[#cfd6e2] text-[28px] top-[calc(50%-4055.5px)] w-[103px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[26px]">派生词</p>
-      </div>
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-246.25px)] text-[#cfd6e2] text-[28px] top-[calc(50%-3935.5px)] w-[103px]" style={{ fontVariationSettings: "'wdth' 100" }}>
-        <p className="leading-[26px]">谚语</p>
       </div>
       <div className="absolute bg-[#16181c] inset-[4.111%_12.32%_94.910%_59.35%] rounded-[10px]" data-name="矩形" />
       <div className="absolute bg-[#16181c] inset-[5.391%_12.34%_93.628%_59.33%] rounded-[10px]" data-name="矩形" />
@@ -2635,9 +2630,6 @@ export default function WordPresentV2() {
       </div>
       <Component15 />
       <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-313px)] text-[#4c4f55] text-[28px] top-[calc(50%-4011.5px)] w-[426px]" style={{ fontVariationSettings: "'wdth' 100" }}>
-        <p className="leading-[24px]">来源:《英汉简明词典》</p>
-      </div>
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-313px)] text-[#4c4f55] text-[28px] top-[calc(50%-3891.5px)] w-[426px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[24px]">来源:《英汉简明词典》</p>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%+183px)] text-[#4c4f55] text-[28px] top-[calc(50%-4130.5px)] w-[410px]" style={{ fontVariationSettings: "'wdth' 100" }}>
