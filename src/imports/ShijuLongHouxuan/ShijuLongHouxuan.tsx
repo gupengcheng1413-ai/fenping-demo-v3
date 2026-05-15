@@ -199,7 +199,7 @@ function Group() {
           </g>
         </svg>
       </div>
-      <div data-jump="poem-jingyesi" className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-281.57px)] text-[#cfd6e2] text-[32px] top-[calc(50%-200.5px)] w-[225.429px] cursor-pointer hover:underline">
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-281.57px)] text-[#cfd6e2] text-[32px] top-[calc(50%-200.5px)] w-[225.429px]">
         <p className="leading-[26px]">静夜思</p>
       </div>
     </div>
