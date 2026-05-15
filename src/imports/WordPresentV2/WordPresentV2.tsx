@@ -389,7 +389,7 @@ function Group39() {
 
 function Group4() {
   return (
-    <div className="absolute inset-[1.75%_43.84%_97.93%_54.21%]">
+    <div className="absolute inset-[2.275%_43.84%_97.41%_54.21%]">
       <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 32 29.0909">
         <g id="Group 35">
           <rect fill="var(--fill-0, #16181C)" height="29.0909" id="ç©å½¢" rx="5.6" width="32" />
@@ -403,7 +403,7 @@ function Group4() {
 
 function Group5() {
   return (
-    <div className="absolute inset-[2.2%_51.89%_97.48%_46.16%]">
+    <div className="absolute inset-[2.722%_51.89%_96.96%_46.16%]">
       <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 32 29.0909">
         <g id="Group 35">
           <rect fill="var(--fill-0, #16181C)" height="29.0909" id="ç©å½¢" rx="5.6" width="32" />
@@ -2604,7 +2604,7 @@ export default function WordPresentV2() {
       </div>
       <Group159 />
       <Group40 />
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-324px)] text-[#959caa] text-[24px] top-[calc(50%-4295px)] w-[447px]" style={{ fontVariationSettings: "'wdth' 100" }}>
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_Arabic:Regular','Noto_Sans_JP:Regular','Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-324px)] text-[#959caa] text-[24px] top-[calc(50%-4247px)] w-[447px]" style={{ fontVariationSettings: "'wdth' 100" }}>
         <p className="leading-[normal]">来源《教纲释义词典》</p>
       </div>
       <div className="absolute bg-[#16181c] inset-[4.87%_41.71%_94.15%_30%] rounded-[10px]" data-name="矩形" />
