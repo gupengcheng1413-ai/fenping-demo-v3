@@ -148,7 +148,7 @@ export default function App() {
       case "shiju-long":
         return <ShijuLong />;
       case "shiju-long-houxuan":
-        return <ShijuLongHouxuan />;
+        return <ShijuLongHouxuan onOpenPoem={() => setFrame("poem-jingyesi")} />;
       case "word-present":
         return <WordPresent />;
       case "word-presen":
