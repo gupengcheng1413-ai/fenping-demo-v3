@@ -2579,7 +2579,7 @@ export default function WordPresentV2() {
         </svg>
       </div>
       <div className="absolute inset-[10.03%_11.28%_89.84%_88.66%]" data-name="矩形" />
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-325px)] text-[#cfd6e2] text-[32px] top-[calc(50%-4524.5px)] w-[228px]">
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] left-[calc(50%-325px)] text-[#cfd6e2] text-[32px] top-[calc(50%-4476.5px)] w-[228px]">
         <p className="leading-[normal]">礼物</p>
       </div>
       <Group159 />
