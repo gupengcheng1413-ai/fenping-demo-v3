@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import imgGroup121 from "./group121.svg";
 import imgEllipse8 from "./ellipse8.svg";
 import imgStar1 from "./star1.svg";
@@ -148,25 +148,95 @@ function findScrollParent(el: HTMLElement | null): HTMLElement | null {
   return null;
 }
 
+// === 跨实例共享 activeIdx ===
+// App.tsx 把 renderFrame() 渲染 3 次(左固定/中心/右固定),每次创建独立的 React 实例。
+// 为了让一处点击同步高亮 3 个实例,这里用模块级订阅器实现共享。
+let _activeIdx: number | null = null;
+const _subscribers = new Set<(i: number | null) => void>();
+
+function setActiveIdxGlobal(i: number | null) {
+  _activeIdx = i;
+  _subscribers.forEach((fn) => fn(i));
+}
+
+function useSharedActiveIdx(): number | null {
+  const [v, setV] = useState<number | null>(_activeIdx);
+  useEffect(() => {
+    const fn = (i: number | null) => setV(i);
+    _subscribers.add(fn);
+    return () => {
+      _subscribers.delete(fn);
+    };
+  }, []);
+  return v;
+}
+
+// 找 App.tsx 注入的 CENTER 主滚动容器(无 z-40)
+function findCenterScroller(): HTMLElement | null {
+  const list = document.querySelectorAll<HTMLElement>(
+    "div.overflow-y-auto.overflow-x-hidden",
+  );
+  for (const el of list) {
+    if (!el.classList.contains("z-40")) return el;
+  }
+  return null;
+}
+
+// 找 LEFT 固定区滚动容器(z-40 + left-0)
+function findLeftScroller(): HTMLElement | null {
+  const list = document.querySelectorAll<HTMLElement>(
+    "div.overflow-y-auto.overflow-x-hidden.z-40",
+  );
+  for (const el of list) {
+    if (el.classList.contains("left-0")) return el;
+  }
+  return null;
+}
+
+// 计算 el 相对 scroller 的累计 offsetTop
+function offsetTopInScroller(el: HTMLElement, scroller: HTMLElement): number {
+  let y = 0;
+  let cur: HTMLElement | null = el;
+  while (cur && cur !== scroller) {
+    y += cur.offsetTop;
+    cur = cur.offsetParent as HTMLElement | null;
+  }
+  return y;
+}
+
+function scrollIntoCenterFirstLine(meaningIdx: number) {
+  const scroller = findCenterScroller();
+  if (!scroller) return;
+  const target = scroller.querySelector<HTMLElement>(
+    `[data-meaning-idx="${meaningIdx}"]`,
+  );
+  if (!target) return;
+  const y = offsetTopInScroller(target, scroller);
+  scroller.scrollTo({ top: Math.max(0, y), behavior: "smooth" });
+}
+
+function scrollIntoLeftFirstLine(lineIdx: number) {
+  const scroller = findLeftScroller();
+  if (!scroller) return;
+  const target = scroller.querySelector<HTMLElement>(
+    `[data-line-idx="${lineIdx}"]`,
+  );
+  if (!target) return;
+  const y = offsetTopInScroller(target, scroller);
+  scroller.scrollTo({ top: Math.max(0, y), behavior: "smooth" });
+}
+
 export default function PoemJingyesiV2() {
-  const [activeIdx, setActiveIdx] = useState<number | null>(null);
-  const meaningRefs = useRef<(HTMLDivElement | null)[]>([]);
-  const lineRefs = useRef<(HTMLParagraphElement | null)[]>([]);
+  const activeIdx = useSharedActiveIdx();
 
   const handlePoemClick = (idx: number) => {
-    setActiveIdx(idx);
-    const target = meaningRefs.current[idx];
-    const scroller = findScrollParent(target);
-    if (!scroller || !target) return;
-    scroller.scrollTo({ top: Math.max(0, target.offsetTop - 30), behavior: "smooth" });
+    setActiveIdxGlobal(idx);
+    scrollIntoCenterFirstLine(idx);
   };
 
   const handleMeaningClick = (idx: number) => {
-    setActiveIdx(idx);
-    const target = lineRefs.current[idx];
-    const scroller = findScrollParent(target);
-    if (!scroller || !target) return;
-    scroller.scrollTo({ top: Math.max(0, target.offsetTop - 30), behavior: "smooth" });
+    setActiveIdxGlobal(idx);
+    scrollIntoLeftFirstLine(idx);
   };
 
   return (
@@ -245,19 +315,18 @@ export default function PoemJingyesiV2() {
       </div>
 
       {/* ===== 左侧固定区:全文(标题 + 朝代 + 4 句诗) ===== */}
-      {/* 容器在 (左 25, top 256.5) — 对应 calc(50%-1158.5px) */}
+      {/* 对照 Figma 节点 445:1582:中心定位 calc(50%-795px) / calc(50%-1158.5px) =>
+          画布 1640×2830,中心(820, 1415),左上锚点 = (820-795, 1415-1158.5) = (25, 256.5) */}
       <div
-        className="absolute font-['Noto_Sans_SC:Regular',sans-serif] font-normal leading-[0]"
-        style={{ left: 22, top: 235, width: 291 }}
+        className="-translate-y-1/2 absolute flex flex-col font-['Noto_Sans_SC:Regular',sans-serif] font-normal justify-center leading-[0] text-[0px]"
+        style={{ left: 25, top: 256.5, width: 291 }}
       >
         <p className="leading-[normal] mb-[3px] text-[40px] text-[#cfd6e2]">静夜思</p>
         <p className="leading-[normal] mb-[3px] text-[28px] text-[rgba(207,214,226,0.7)]">[唐代]李白</p>
         {POEM_LINES.map((line, i) => (
           <p
             key={i}
-            ref={(el) => {
-              lineRefs.current[i] = el;
-            }}
+            data-line-idx={i}
             onClick={() => handlePoemClick(i)}
             className={`leading-[normal] mb-[3px] text-[40px] cursor-pointer transition-colors select-none ${
               activeIdx === i ? "text-[#ec9709]" : "text-[#cfd6e2]"
@@ -290,9 +359,7 @@ export default function PoemJingyesiV2() {
         {MEANING_GROUPS.map((group, i) => (
           <div
             key={i}
-            ref={(el) => {
-              meaningRefs.current[i] = el;
-            }}
+            data-meaning-idx={i}
             onClick={() => handleMeaningClick(i)}
             className="cursor-pointer select-none"
           >
